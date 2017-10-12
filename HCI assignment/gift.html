@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>BuyBestProduct Ltd.</title>
+   <link rel="stylesheet" href="css/components.css">
+   <link rel="stylesheet" href="css/icons.css">
+   <link rel="stylesheet" href="css/responsee.css">
+   <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+   <link rel="stylesheet" href="css/cart_style.css"> <!-- Resource style -->
+   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+   <link rel="stylesheet" href="css/jquery-ui.css">
+   <script src="js/jquery.min.js"></script>
+   <script src="js/jquery-ui.min.js"></script>
+   <script src='js/jquery.zoom.js'></script>
+   <script src="js/jquery.session.js"></script>
+</head>
+
+<body class="size-1280">
+   <!-- HEADER -->
+   <header>
+
+   </header>
+   <span id="active-page" style="display:none;">Gift</span>
+   <div class="line">
+      <div class="box margin-bottom" style="padding:0; padding-left: 1.25rem;">
+         <div class="margin">
+            <ul class="breadcrumb">
+              <li><a href="index.html">Home</a></li>
+              <li>Gift</li>
+            </ul>
+         </div>
+      </div>
+   </div>
+   <!-- ASIDE NAV AND CONTENT -->
+   <div class="line">
+      <div class="box">
+         <div class="margin2x">
+            
+            <!-- ASIDE NAV -->
+            <aside class="s-12 m-4 l-3">
+               <form class="customform" onsubmit="return false;">
+                  <label id="customform-label" for="search-product">Search</label>
+                  <p class="margin-bottom2x">
+                     <input type="text" id="search-product" placeholder="Search the Products" title="Search the Products" style="margin-top:10px;" />
+                  </p>
+                  <label id="customform-label" for="sortlist">Sort</label>
+                  <p class="margin-bottom2x">
+                     <select id="sortlist" style="margin-top:10px;">
+                        <option value="new">New Added</option>
+                        <option value="popular">Most Popular</option>
+                        <option value="lPrice">Lowest Price</option>
+                     </select>
+                  </p>
+               </form>
+            </aside>
+            
+            <!-- CONTENT -->
+            <section class="s-12 m-8 l-6">
+               <h1>Gifts</h1>
+               <div class="margin product-container">
+                  <div id="inser-after"></div>
+                  
+                  <div class="s-12 m-12 l-12 product product-usb margin-bottom2x" id="1">
+                     <a class="product-info" title="Click To Show More Details">
+                        <span class="product-code" style="display:none;">usb-1</span>
+                        <span class="product-rating" style="display:none;">9</span>
+                        <span class="product-date" style="display:none;">2016-12-1</span>
+                        <span class='l-6 dialog-img'>
+                           <img src="img/gift-1.png">
+                        </span>
+                        <div class="l-6">
+                           <h4 class="margin-bottom2x"><strong class="product-name"><center>IVE Mini Holder For Phone</center></strong><br/><br/><div class="right"><span class="product-price">200</span> Points</div></h4>
+                        </div>
+                     </a>
+                     <form class="customform s-3 right" action="">
+                        <div><button class="button rounded-btn submit-btn s-12 cd-add-to-cart" value="1" style="background-color:#4ebbdb;">Point Me</button></div>
+                     </form>
+                     <div class="product-dialog" id="product-dialog-usb-1" title="Mini Holder For Phone">
+                        <span class='l-5 dialog-img' style="margin-right:10px;">
+                     		<img src="img/gift-1-1.png">
+                     	</span>
+                        <div class="l-6">
+                           <p><strong >Product Code : </strong>gift-1</p>
+                           <p><strong >Name : </strong>IVE Mini Holder For Phone</p>
+                           <p><strong >Rating : </strong>9/10</p>
+                           <p><strong style="color:#9BB800;font-size:115%;">Coat : 200 points</strong></p>
+                        </div>
+                     </div>
+                  </div>
+                  
+                  <div class="s-12 m-12 l-12 product product-usb margin-bottom2x" id="2">
+                     <a class="product-info" title="Click To Show More Details">
+                        <span class="product-code" style="display:none;">usb-2</span>
+                        <span class="product-rating" style="display:none;">8</span>
+                        <span class="product-date" style="display:none;">2016-11-30</span>
+                        <span class='l-6 dialog-img'>
+                           <img src="img/gift-2.png">
+                        </span>
+                        <div class="l-6">
+                           <h4 class="margin-bottom2x"><strong class="product-name"><center>IVE Pen</center></strong><br/><br/><div class="right"><span class="product-price">150</span> Points</div></h4>
+                        </div>
+                     </a>
+                     <form class="customform s-3 right" action="">
+                        <div><button class="button rounded-btn submit-btn s-12 cd-add-to-cart" value="2" style="background-color:#4ebbdb;">Point Me</button></div>
+                     </form>
+                     <div class="product-dialog" id="product-dialog-usb-2" title="IVE Pen">
+                        <span class='l-5 dialog-img' style="margin-right:10px;">
+                     		<img src="img/gift-2-1.png">
+                     	</span>
+                        <div class="l-6">
+                           <p><strong >Product Code : </strong>gift-2</p>
+                           <p><strong >Name : </strong>IVE Pen</p>
+                           <p><strong >Rating : </strong>8/10</p>
+                           <p><strong style="color:#9BB800;font-size:115%;">Coat : 150 points</strong></p>
+                        </div>
+                     </div>
+                  </div>
+                  
+                  <div class="s-12 m-12 l-12 product product-usb margin-bottom2x" id="3">
+                     <a class="product-info" title="Click To Show More Details">
+                        <span class="product-code" style="display:none;">usb-3</span>
+                        <span class="product-rating" style="display:none;">9.5</span>
+                        <span class="product-date" style="display:none;">2016-11-21</span>
+                        <span class='l-6 dialog-img'>
+                           <img src="img/gift-3.png">
+                        </span>
+                        <div class="l-6">
+                           <h4 class="margin-bottom2x"><strong class="product-name"><center>IVE Laptop Bag</center></strong><br/><br/><div class="right"><span class="product-price">1000</span> Points</div></h4>
+                        </div>
+                     </a>
+                     <form class="customform s-3 right" action="">
+                        <div><button class="button rounded-btn submit-btn s-12 cd-add-to-cart" value="3" style="background-color:#4ebbdb;">Point Me</button></div>
+                     </form>
+                     <div class="product-dialog" id="product-dialog-usb-3" title="IVE Laptop Bag">
+                        <span class='l-5 dialog-img' style="margin-right:10px;">
+                     		<img src="img/gift-3-1.png">
+                     	</span>
+                        <div class="l-6">
+                           <p><strong >Product Code : </strong>usb-3</p>
+                           <p><strong >Name : </strong>IVE Laptop Bag</p>
+                           <p><strong >Rating : </strong>9.5/10</p>
+                           <p><strong style="color:#9BB800;font-size:115%;">Coat : 1000 points</strong></p>
+                        </div>
+                     </div>
+                  </div>
+                  
+               </div>
+            </section>
+            <!-- ASIDE NAV 2 -->
+            <aside class="s-12 l-3">
+               <h2 class="margin-bottom2x">Scheme</h2>
+               <center><div>
+                  <h5><strong>Buy More Earn More</strong></h5>
+                  <p class="margin-bottom">Buy product(s) to earn points to redeem free gifts</p>
+                  <center class="margin-bottom"><strong>$1 = 1 point</strong></center>
+                  <center class="margin-bottom"><strong>$100 = 100 points</strong></center>
+                  <p>Act now! Register to be a Member !</p>
+               </div></center>
+            </aside>
+         </div>
+      </div>
+   </div>
+
+   <div class="cd-cart-container empty">
+      <a href="#0" class="cd-cart-trigger">
+         Cart
+         <ul class="count"> <!-- cart items count -->
+            <li>0</li>
+            <li>0</li>
+         </ul> <!-- .count -->
+      </a>
+   
+      <div class="cd-cart">
+         <div class="wrapper">
+            <header1>
+               <h2>Cart</h2>
+               <span class="undo">Item removed. <a href="#0">Undo</a></span>
+            </header1>
+            
+            <div class="body">
+               <ul>
+                  <!-- products added to the cart will be inserted here using JavaScript -->
+               </ul>
+            </div>
+   
+            <footer1>
+               <a href="#0" id="checkoutBtn" class="checkout btn"><em>Checkout - $<span>0</span></em></a>
+            </footer1>
+         </div>
+      </div> <!-- .cd-cart -->
+   </div> <!-- cd-cart-container -->
+
+   <!-- FOOTER -->
+   <footer class="line">
+   </footer>
+   <script type="text/javascript" src="js/responsee.js"></script>
+   <script src="js/main-gift.js"></script> <!-- Resource jQuery -->
+   <script type="text/javascript" src="js/all.js"></script>
+   <script type="text/javascript" src="js/gift.js"></script>
+</body>
+
+</html>
