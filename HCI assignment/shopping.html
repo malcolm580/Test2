@@ -16,6 +16,31 @@
    <script src="js/jquery-ui.min.js"></script>
    <script src='js/jquery.zoom.js'></script>
    <script src="js/jquery.session.js"></script>
+
+
+   <style>
+
+      .content img{
+         width: 200px;
+         height: 200px;
+      }
+
+      .dialog-img{
+         width: 200px;
+         height: 200px;
+      }
+
+      .margin-bottom img{
+         width: 50px;
+         height: 50px;
+      }
+
+      .detailsTable {
+         display : none;
+      }
+
+   </style>
+
 </head>
 
 <body class="size-1280">
@@ -43,206 +68,142 @@
                <h1>Products</h1>
                <div class="margin product-container">
                   <div id="inser-after"></div>
-                  
-                  <div class="s-12 m-6 l-4 product product-usb" id="1">
-                     <a class="product-info" title="Click To Show More Details">
-                        <span class="product-code" style="display:none;">usb-1</span>
-                        <span class="product-rating" style="display:none;">9.5</span>
-                        <span class="product-date" style="display:none;">2016-12-1</span>
-                        <img src="img/product-1.png">
-                        <h4 class="margin-bottom"><strong class="product-name">Sandisk Ultra</strong><br/>HKD <span class="product-price">114</span></h4>
-                     </a>
-                     <form class="customform s-12 margin-bottom2x" action="">
-                        <div><button class="button rounded-btn submit-btn s-12 cd-add-to-cart" value="1">USB3.0 64GB</button></div>
-                     </form>
-                     <div class="product-dialog" id="product-dialog-usb-1" title="Sandisk Ultra">
+
+                 <div class="full-product Tokyo">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12961.459677812458!2d139.6911213!3d35.6926366!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8548635f1933c70e!2z5p2x5Lqs5biM54i-6aCT6YWS5bqX!5e0!3m2!1szh-TW!2shk!4v1507997692605" width="200" height="200" frameborder="0" style="border:0;float: right" allowfullscreen></iframe>
+                    <div class="product product-usb" id="1">
+                       <a class="product-info" title="Click To Show More Details">
+                          <span class="product-code" style="display:none;">hotel-1</span>
+                          <span class="product-rating" style="display:none;">5</span>
+                          <span class="product-date" style="display:none;">2017-10-14</span>
+                          <div class="content">
+                             <img src="img/Tokyo_Hilton.png" style="float: left">
+                             <div class="margin-bottom">
+                                <h4>Address : 6-6-2, Nishi-Shinjuku, Shinjuku-ku <br></h4>
+                                <h4>Minimum consumption (HKD) : <span class="product-price">2793</span> <br></h4>
+                                <h4> Services : <img src="logos/wifi.png" alt="wifi"><img src="logos/parking.png" alt="parking">
+                                   <img src="logos/restaurant.png" alt="restaurant"></h4>
+
+                                <h4> Stars :
+                                   <span class="fiveStar">
+                                 <img src="logos/star.png" alt="star">
+                                 <img src="logos/star.png" alt="star">
+                                 <img src="logos/star.png" alt="star">
+                                 <img src="logos/star.png" alt="star">
+                                 <img src="logos/star.png" alt="star">
+                                 </span>
+                                </h4>
+                                <h3> User rating : <span class="product-rating">4.7</span>/5.0</h3>
+                             </div>
+                          </div>
+                       </a>
+                       <form class="customform s-12 margin-bottom2x" action="">
+                          <div><button class="button rounded-btn submit-btn s-12 cd-add-to-cart product-name" value="1">Hilton Tokyo</button></div>
+                       </form>
+                       <div class="product-dialog" id="product-dialog-hotel-1" title="Sandisk Ultra">
                         <span class='l-5 dialog-img'>
-                     		<img src="img/product-1.png">
+                     		<img src="img/Tokyo_Hilton.png">
                      	</span>
-                        <div class="l-7">
-                           <p><strong >Product Code : </strong>usb-1</p>
-                           <p><strong >Name : </strong>SANDISK 64GB USB3.0 OTG Ultra Dual Flash</p>
-                           <p><strong >Rating : </strong>9.5/10</p>
-                           <p><strong >Capacity : </strong>64 GB</p>
-                           <p><strong style="color:#9BB800;font-size:115%;">Price : HKD 114</strong></p>
+                          <div class="l-7">
+                             <table class="detailsTable" >
+                                <tr>
+                                   <th>Room Type</th>
+                                   <th>Area (m2)</th>
+                                   <th>Price</th>
+                                   <th>Facilities</th>
+                                </tr>
+                                <tr>
+                                   <td>Single</td>
+                                   <td>30</td>
+                                   <td>$300</td>
+                                   <td>Desk, ironing facilities, air conditioning</td>
+                                </tr>
+                                <tr>
+                                   <td>Twins</td>
+                                   <td>40</td>
+                                   <td>$400</td>
+                                   <td>Desk, ironing facilities, air conditioning,Electric kettle, coffee maker / teapot</td>
+                                </tr>
+                                <tr>
+                                   <td>VIP room</td>
+                                   <td>50</td>
+                                   <td>$400</td>
+                                   <td>Desk, ironing facilities, air conditioning,Electric kettle, coffee maker / teapot, mini bar, small fridge</td>
+                                </tr>
+                             </table>
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+
+                  <div class="full-product Seoul">
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12651.170892501992!2d126.987516!3d37.559947!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4fa5a3c19789507d!2sVestin+Residence+Myeongdong!5e0!3m2!1szh-TW!2shk!4v1508001401223" width="200" height="200" frameborder="0" style="border:0;float: right" allowfullscreen></iframe>
+                     <div class="product product-usb" id="2">
+                        <a class="product-info" title="Click To Show More Details">
+                           <span class="product-code" style="display:none;">hotel-2</span>
+                           <span class="product-rating" style="display:none;">5</span>
+                           <span class="product-date" style="display:none;">2017-10-14</span>
+                           <div class="content">
+                              <img src="img/Tokyo_Hilton.png" style="float: left">
+                              <div class="margin-bottom">
+                                 <h4>Address : 6-6-2, Nishi-Shinjuku, Shinjuku-ku <br></h4>
+                                 <h4>Minimum consumption (HKD) : <span class="product-price">2793</span> <br></h4>
+                                 <h4> Services : <img src="logos/wifi.png" alt="wifi"><img src="logos/parking.png" alt="parking">
+                                    <img src="logos/restaurant.png" alt="restaurant"></h4>
+
+                                 <h4> Stars :
+                                    <span class="fiveStar">
+                                 <img src="logos/star.png" alt="star">
+                                 <img src="logos/star.png" alt="star">
+                                 <img src="logos/star.png" alt="star">
+                                 <img src="logos/star.png" alt="star">
+                                 <img src="logos/star.png" alt="star">
+                                 </span>
+                                 </h4>
+                                 <h3> User rating : <span class="product-rating">4.7</span>/5.0</h3>
+                              </div>
+                           </div>
+                        </a>
+                        <form class="customform s-12 margin-bottom2x" action="">
+                           <div><button class="button rounded-btn submit-btn s-12 cd-add-to-cart product-name" value="1">Hilton Tokyo</button></div>
+                        </form>
+                        <div class="product-dialog" id="product-dialog-hotel-1" title="Sandisk Ultra">
+                        <span class='l-5 dialog-img'>
+                     		<img src="img/Tokyo_Hilton.png">
+                     	</span>
+                           <div class="l-7">
+                              <table class="detailsTable" >
+                                 <tr>
+                                    <th>Room Type</th>
+                                    <th>Area (m2)</th>
+                                    <th>Price</th>
+                                    <th>Facilities</th>
+                                 </tr>
+                                 <tr>
+                                    <td>Single</td>
+                                    <td>30</td>
+                                    <td>$300</td>
+                                    <td>Desk, ironing facilities, air conditioning</td>
+                                 </tr>
+                                 <tr>
+                                    <td>Twins</td>
+                                    <td>40</td>
+                                    <td>$400</td>
+                                    <td>Desk, ironing facilities, air conditioning,Electric kettle, coffee maker / teapot</td>
+                                 </tr>
+                                 <tr>
+                                    <td>VIP room</td>
+                                    <td>50</td>
+                                    <td>$400</td>
+                                    <td>Desk, ironing facilities, air conditioning,Electric kettle, coffee maker / teapot, mini bar, small fridge</td>
+                                 </tr>
+                              </table>
+                           </div>
                         </div>
                      </div>
                   </div>
                   
-                  <div class="s-12 m-6 l-4 product product-usb" id="2">
-                     <a class="product-info" title="Click To Show More Details">
-                        <span class="product-code" style="display:none;">usb-2</span>
-                        <span class="product-rating" style="display:none;">9</span>
-                        <span class="product-date" style="display:none;">2016-11-30</span>
-                        <img src="img/product-2.png">
-                        <h4 class="margin-bottom"><strong class="product-name">Sandisk SDCZ43 Ultra</strong><br/>HKD <span class="product-price">210</span></h4>
-                     </a>
-                     <form class="customform s-12 margin-bottom2x" action="">
-                        <div><button class="button rounded-btn submit-btn s-12 cd-add-to-cart" value="2">USB3.0 128GB</button></div>
-                     </form>
-                     <div class="product-dialog" id="product-dialog-usb-2" title="Sandisk SDCZ43 Ultra">
-                        <span class='l-5 dialog-img'>
-                     		<img src="img/product-2.png">
-                     	</span>
-                        <div class="l-7">
-                           <p><strong >Product Code : </strong>usb-2</p>
-                           <p><strong >Name : </strong>Sandisk SDCZ43 Ultra Fit 128GB</p>
-                           <p><strong >Rating : </strong>9/10</p>
-                           <p><strong >Capacity : </strong>128 GB</p>
-                           <p><strong style="color:#9BB800;font-size:115%;">Price : HKD 210</strong></p>
-                        </div>
-                     </div>
-                  </div>
-                  
-                  <div class="s-12 m-6 l-4 product product-usb" id="3">
-                     <a class="product-info" title="Click To Show More Details">
-                        <span class="product-code" style="display:none;">usb-3</span>
-                        <span class="product-rating" style="display:none;">7</span>
-                        <span class="product-date" style="display:none;">2016-11-21</span>
-                        <img src="img/product-3.png">
-                        <h4 class="margin-bottom"><strong class="product-name">ADATA DashDrive Elite</strong><br/>HKD <span class="product-price">150</span></h4>
-                     </a>
-                     <form class="customform s-12 margin-bottom2x" action="">
-                        <div><button class="button rounded-btn submit-btn s-12 cd-add-to-cart" value="3">USB3.0 32GB</button></div>
-                     </form>
-                     <div class="product-dialog" id="product-dialog-usb-3" title="ADATA DashDrive Elite">
-                        <span class='l-5 dialog-img'>
-                     		<img src="img/product-3.png">
-                     	</span>
-                        <div class="l-7">
-                           <p><strong >Product Code : </strong>usb-3</p>
-                           <p><strong >Name : </strong>ADATA DashDrive Elite UE700 32GB</p>
-                           <p><strong >Rating : </strong>7/10</p>
-                           <p><strong >Capacity : </strong>32 GB</p>
-                           <p><strong style="color:#9BB800;font-size:115%;">Price : HKD 150</strong></p>
-                        </div>
-                     </div>
-                  </div>
-                  
-                  <div class="s-12 m-6 l-4 product product-usb" id="4">
-                     <a class="product-info" title="Click To Show More Details">
-                        <span class="product-code" style="display:none;">usb-4</span>
-                        <span class="product-rating" style="display:none;">6</span>
-                        <span class="product-date" style="display:none;">2016-11-11</span>
-                        <img src="img/product-4.png">
-                        <h4 class="margin-bottom"><strong class="product-name">Kingston HXS3</strong><br/>HKD <span class="product-price">500</span></h4>
-                     </a>
-                     <form class="customform s-12 margin-bottom2x" action="">
-                        <div><button class="button rounded-btn submit-btn s-12 cd-add-to-cart" value="4">USB3.0 128GB</button></div>
-                     </form>
-                     <div class="product-dialog" id="product-dialog-usb-4" title="Kingston HXS3">
-                        <span class='l-5 dialog-img'>
-                     		<img src="img/product-4.png">
-                     	</span>
-                        <div class="l-7">
-                           <p><strong >Product Code : </strong>usb-4</p>
-                           <p><strong >Name : </strong>Kingston HXS3 128GB</p>
-                           <p><strong >Rating : </strong>6/10</p>
-                           <p><strong >Capacity : </strong>128 GB</p>
-                           <p><strong style="color:#9BB800;font-size:115%;">Price : HKD 500</strong></p>
-                        </div>
-                     </div>
-                  </div>
-                  
-                  <div class="s-12 m-6 l-4 product product-mouse" id="5">
-                     <a class="product-info" title="Click To Show More Details">
-                        <span class="product-code" style="display:none;">mouse-1</span>
-                        <span class="product-rating" style="display:none;">8.5</span>
-                        <span class="product-date" style="display:none;">2016-11-1</span>
-                        <img src="img/product-5.png">
-                        <h4 class="margin-bottom"><strong class="product-name">Logitech MX</strong><br/>HKD <span class="product-price">685</span></h4>
-                     </a>
-                     <form class="customform s-12 margin-bottom2x" action="">
-                        <div><button class="button rounded-btn submit-btn s-12 cd-add-to-cart" value="5">Wireless Mouse</button></div>
-                     </form>
-                     <div class="product-dialog" id="product-dialog-mouse-1" title="Logitech MX Master">
-                        <span class='l-5 dialog-img'>
-                     		<img src="img/product-5.png">
-                     	</span>
-                        <div class="l-7">
-                           <p><strong >Product Code : </strong>mouse-1</p>
-                           <p><strong >Name : </strong>Logitech MX Master</p>
-                           <p><strong >Rating : </strong>8.5/10</p>
-                           <p><strong >Type : </strong>Wireless Mouse</p>
-                           <p><strong style="color:#9BB800;font-size:115%;">Price : HKD 685</strong></p>
-                        </div>
-                     </div>
-                  </div>
-                  
-                  <div class="s-12 m-6 l-4 product product-mouse" id="6">
-                     <a class="product-info" title="Click To Show More Details">
-                        <span class="product-code" style="display:none;">mouse-2</span>
-                        <span class="product-rating" style="display:none;">8</span>
-                        <span class="product-date" style="display:none;">2016-10-18</span>
-                        <img src="img/product-6.png">
-                        <h4 class="margin-bottom"><strong class="product-name">Razer DeathAdder Elite</strong><br/>HKD <span class="product-price">450</span></h4>
-                     </a>
-                     <form class="customform s-12 margin-bottom2x" action="">
-                        <div><button class="button rounded-btn submit-btn s-12 cd-add-to-cart" value="6">Wired USB Mouse</button></div>
-                     </form>
-                     <div class="product-dialog" id="product-dialog-mouse-2" title="Razer DeathAdder Elite">
-                        <span class='l-5 dialog-img'>
-                     		<img src="img/product-6.png">
-                     	</span>
-                        <div class="l-7">
-                           <p><strong >Product Code : </strong>mouse-2</p>
-                           <p><strong >Name : </strong>Razer DeathAdder Elite (Chroma RGB LED)</p>
-                           <p><strong >Rating : </strong>8/10</p>
-                           <p><strong >Type : </strong>Wired USB Mouse</p>
-                           <p><strong style="color:#9BB800;font-size:115%;">Price : HKD 450</strong></p>
-                        </div>
-                     </div>
-                  </div>
-                  
-                  <div class="s-12 m-6 l-4 product product-mouse" id="7">
-                     <a class="product-info" title="Click To Show More Details">
-                        <span class="product-code" style="display:none;">mouse-3</span>
-                        <span class="product-rating" style="display:none;">6.5</span>
-                        <span class="product-date" style="display:none;">2016-10-1</span>
-                        <img src="img/product-7.png">
-                        <h4 class="margin-bottom"><strong class="product-name">Steelseries Rival 500</strong><br/>HKD <span class="product-price">599</span></h4>
-                     </a>
-                     <form class="customform s-12 margin-bottom2x" action="">
-                        <div><button class="button rounded-btn submit-btn s-12 cd-add-to-cart" value="7">Wired USB Mouse</button></div>
-                     </form>
-                     <div class="product-dialog" id="product-dialog-mouse-3" title="Steelseries Rival 500">
-                        <span class='l-5 dialog-img'>
-                     		<img src="img/product-7.png">
-                     	</span>
-                        <div class="l-7">
-                           <p><strong >Product Code : </strong>mouse-3</p>
-                           <p><strong >Name : </strong>Steelseries Rival 500</p>
-                           <p><strong >Rating : </strong>6.5/10</p>
-                           <p><strong >Type : </strong>Wired USB Mouse</p>
-                           <p><strong style="color:#9BB800;font-size:115%;">Price : HKD 599</strong></p>
-                        </div>
-                     </div>
-                  </div>
-                  
-                  <div class="s-12 m-6 l-4 product product-mouse" id="8">
-                     <a class="product-info" title="Click To Show More Details">
-                        <span class="product-code" style="display:none;">mouse-4</span>
-                        <span class="product-rating" style="display:none;">5</span>
-                        <span class="product-date" style="display:none;">2016-09-20</span>
-                        <img src="img/product-8.png">
-                        <h4 class="margin-bottom"><strong class="product-name">GIGABYTE M7800E</strong><br/>HKD <span class="product-price">175</span></h4>
-                     </a>
-                     <form class="customform s-12 margin-bottom2x" action="">
-                        <div><button class="button rounded-btn submit-btn s-12 cd-add-to-cart" value="8">Wireless Mouse</button></div>
-                     </form>
-                     <div class="product-dialog" id="product-dialog-mouse-4" title="GIGABYTE M7800E">
-                        <span class='l-5 dialog-img'>
-                     		<img src="img/product-8.png">
-                     	</span>
-                        <div class="l-7">
-                           <p><strong >Product Code : </strong>mouse-4</p>
-                           <p><strong >Name : </strong>GIGABYTE M7800E</p>
-                           <p><strong >Rating : </strong>5/10</p>
-                           <p><strong >Type : </strong>Wireless Mouse</p>
-                           <p><strong style="color:#9BB800;font-size:115%;">Price : HKD 175</strong></p>
-                        </div>
-                     </div>
-                  </div>
+                  <!---->
                   
                </div>
             </section>
@@ -261,15 +222,15 @@
                         <option value="lPrice">Lowest Price</option>
                      </select>
                   </p>
-                  <label id="customform-label" for="categories">Categories</label>
+                  <label id="customform-label">Destination</label>
                   <p>
                      <div>
-                        <input type="checkbox" value="product-usb" id="usb" name="categories" style="margin-bottom:10px;margin-top:10px;" />
-                        <label for="usb">USB Drives</label>
+                        <input type="checkbox" value="Tokyo" id="usb" name="categories" style="margin-bottom:10px;margin-top:10px;" />
+                        <label for="usb">Tokyo</label>
                      </div>
                      <div>
-                        <input type="checkbox" value="product-mouse" id="mouse" name="categories" style="margin-bottom:10px;" />
-                        <label for="mouse">Mouses</label>
+                        <input type="checkbox" value="Seoul" id="mouse" name="categories" style="margin-bottom:10px;" />
+                        <label for="mouse">Seoul</label>
                      </div>
                   </p>
                </form>

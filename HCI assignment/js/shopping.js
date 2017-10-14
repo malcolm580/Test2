@@ -110,7 +110,7 @@ $(document).ready(function() {
     //categories
     $('input:checkbox[name="categories"]').on('change', function() {
         $('.product-container').hide();
-        $(".product").hide();
+        $(".full-product").hide();
         $('input:checkbox[name="categories"]:checked').each(function() {
             var t = this.value;
             $("." + t).show();
@@ -153,6 +153,7 @@ $(document).ready(function() {
     $(".product-info").on("click", function() {
         var code = $(this).find('.product-code').text();
         $("#product-dialog-" + code).dialog("open");
+        $(".detailsTable").css("display","inline")
     });
     
     //opean a dialog has parameter 
@@ -192,4 +193,5 @@ $(document).ready(function() {
 
     // zoom in picture
     $('.dialog-img').zoom();
+
 });
