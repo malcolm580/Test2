@@ -2,26 +2,8 @@
 $(document).ready(function() {
 
     var availableSearch = [
-        "Sandisk",
-        "ADATA",
-        "Kingston",
-        "Logitech",
-        "Razer",
-        "Steelseries",
-        "GIGABYTE",
-        "COBOL",
-        "Sandisk Ultra",
-        "Sandisk SDCZ43 Ultra",
-        "ADATA DashDrive Elite",
-        "Logitech MX Master",
-        "Razer DeathAdder Elite",
-        "Steelseries Rival 500",
-        "GIGABYTE M7800E",
-        "32GB",
-        "64GB",
-        "128GB",
-        "Wireless",
-        "Wired"
+    "Vestin Residence Myeongdong",
+    "Hilton Tokyo"
     ];
     $("#search-product").autocomplete({
         source: availableSearch
@@ -38,7 +20,7 @@ $(document).ready(function() {
 
     $("#search-product").keyup(function() {
         $('.product-container').hide();
-        $(".product").hide().filter(":casecontains('" + ($(this).val()) + "')").show();
+        $(".full-product").hide().filter(":casecontains('" + ($(this).val()) + "')").show();
         $('.product-container').stop(true, true).effect('slide', {
             direction: "down"
         }, 500);

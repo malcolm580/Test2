@@ -114,7 +114,7 @@ form {line-height:1.4;}
 nav {
   display:block;
   width:100%;
-  background:#4ebbdb;
+  background:#000000;
 }
 .line:after, nav:after, .center:after, .box:after, .margin:after, .margin2x:after {
   clear:both;
