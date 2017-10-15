@@ -26,7 +26,7 @@ $(document).ready(function() {
             "How to register an account",
             "When will my ordered items arrive",
             "How can I get discount",
-            "Does BuyBestProduct Ltd. disclose the personal information of their customers to third party",
+            "Does Happy Travel disclose the personal information of their customers to third party",
         ];
         $("#header-search").autocomplete({
             source: availableQuestion
