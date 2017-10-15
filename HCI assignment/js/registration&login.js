@@ -241,12 +241,21 @@ $(document).ready(function () {
                 title: "Congratulations",
                 text: "You have successfully registered and subscribed to the service!!",
                 icon: "success",
-                buttons: ["Cancel", "Login"],
+                buttons: true,
                 dangerMode: true,
             })
                 .then((willDelete) => {
-                if(willDelete)
-                window.location = 'login.html';
+                if(willDelete) {
+                    window.location = 'index.html';
+                }else{
+                    $("#username").val('');
+            $("#password").val('');
+            $("#confirm_password").val('');
+            $("#phone").val('');
+            $("#email").val('');
+            $("#stuid").val('');
+            window.location = 'signup.html';
+        }
         });
 
         } else {
