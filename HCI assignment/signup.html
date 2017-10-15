@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Happy Travel</title>
+    <title>HappyTravel Ltd.</title>
     <link rel="stylesheet" href="css/components.css">
     <link rel="stylesheet" href="css/icons.css">
     <link rel="stylesheet" href="css/responsee.css">
@@ -15,8 +15,8 @@
     <script src="js/jquery-ui.min.js"></script>
     <script src="js/jquery.session.js"></script>
     <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <script src="js/sweetalert.min.js"></script>
     <link href="css/progress.css" rel='stylesheet' type='text/css' />
-    <link href="css/modal.css" rel='stylesheet' type='text/css' />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--webfonts-->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text.css' />
@@ -25,102 +25,121 @@
 </head>
 
 <body class="size-1280">
-    <!-- HEADER -->
-    <header>
+<!-- HEADER -->
+<header>
 
-    </header>
-    <!-- ASIDE NAV AND CONTENT -->
-    <div class="line">
-      <div class="box margin-bottom" style="padding:0; padding-left: 1.25rem;">
-         <div class="margin">
+</header>
+<!-- ASIDE NAV AND CONTENT -->
+<div class="line">
+    <div class="box margin-bottom" style="padding:0; padding-left: 1.25rem;">
+        <div class="margin">
             <ul class="breadcrumb">
-              <li><a href="index.html">Home</a></li>
-              <li>Sign Up</li>
+                <li><a href="index.html">Home</a></li>
+                <li>Sign Up</li>
             </ul>
-         </div>
-      </div>
-   </div>
-    <div class="line">
-        <div class="box">
-            <div class="margin2x">
-                <!-- CONTENT -->
-                <section class="s-12 m-8 l-12">
-                    <div class="main">
-         <div class="header" >
-            <h1>Create a Free Account!</h1>
-         </div>
-         <div id="registration">
-            <ul  class="left-form">
-               <h2>New Account:</h2>
-               <li>
-                  <input type="text"   placeholder="Username" id="username" required/>
-                  <span id="username_indicator"> </span>
-                  <div class="clear"> </div>
-               </li>
-               <li>
-                  <input type="password"   placeholder="password" id="password" required/>
-                  <span id="pass1_indicator"> </span>
-                  <meter max="100" value="0" id="password_strength" class="progress-bar" low="40"></meter>
-                  <p id="ps_msg"></p>
-                  <div class="clear"></div>
-               </li>
-               <li>
-                  <input type="password"   placeholder="password" id="confirm_password" required/>
-                  <span id="pass_indicator"> </span>
-                  <p id="cp_msg"></p>
-                  <div class="clear"> </div>
-               </li>
-               <li>
-                  <input type="text"   placeholder="Telephone" id="phone" required/>
-                  <span id="phone_indicator"> </span>
-                  <div class="clear"> </div>
-               </li>
-               <li>
-                  <input type="email"   placeholder="Email" id="email" required/>
-                  <span id="email_indicator"> </span>
-                  <div class="clear"> </div>
-               </li>
-               <label class="checkbox"><input type="checkbox" name="checkbox" id="id_cb"><i> </i>Provide your IVE student ID to obtraining 20% discount.</label>
-               <li>
-                  <input type="text"   placeholder="IVE Student ID" id="stuid" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/>
-                  <span id="stuid_indicator"> </span>
-                  <div class="clear"> </div>
-               </li>
-               <input type="submit" id="submit" value="Create Account">
-               <div class="clear"> </div>
-            </ul>
-         </div>
-         <div id="pic">
-            <ul class="right-form">
-               <img src="images/main_oval_overview_tsingyi.jpg"/>
-            </ul>
-            <div class="clear"> </div>
-         </div>
-      </div>
-
-          <div id="dialog-message-success" title="Registration Success !!">
-            <p>
-              <b>Congratulations !!</b>
-              You have successfully registered and subscribed to the service!!
-            </p>
-          </div>
-
-          <div id="dialog-message-fail" title="Registration Failure !!">
-            <p>
-              <b>Sorry !!</b>
-              You have not entered proper information. Kindly re-submit the form!!
-            </p>
-          </div>
-          
-                </section>
-            </div>
         </div>
     </div>
-    <!-- FOOTER -->
-    <footer class="line">
-    </footer>
-    <script type="text/javascript" src="js/responsee.js"></script>
-    <script type="text/javascript" src="js/all.js"></script>
+</div>
+<div class="line">
+    <div class="box">
+        <div class="margin2x">
+            <!-- CONTENT -->
+            <section class="s-12 m-8 l-12">
+                <div class="main">
+
+                    <img src="images/happy-travels.jpg" style="margin-left: 220px"/>
+                    <div class="header"> <h1>Create a Free Account!</h1></div>
+
+
+                    <div id="registration">
+                        <ul  class="left-form">
+                            <h2>New Account:</h2>
+                            <li>
+                                <input type="text"   placeholder="Username" id="username" required/>
+                                <span id="username_indicator"> </span>
+                                <div class="clear"> </div>
+                            </li>
+                            <li>
+                                <input type="password"   placeholder="Password" id="password" required/>
+                                <span id="pass1_indicator"> </span>
+                                <meter max="100" value="0" id="password_strength" class="progress-bar" low="40"></meter>
+                                <p id="ps_msg"></p>
+                                <div class="clear"></div>
+                            </li>
+                            <li>
+                                <input type="password"   placeholder="Repeat Password" id="confirm_password" required/>
+                                <span id="pass_indicator"> </span>
+                                <p id="cp_msg"></p>
+                                <div class="clear"> </div>
+                            </li>
+                            <li>
+                                <input type="text"   placeholder="Telephone" id="phone" required/>
+                                <span id="phone_indicator"> </span>
+                                <div class="clear"> </div>
+                            </li>
+                            <li>
+                                <input type="email"   placeholder="Email" id="email" required/>
+                                <span id="email_indicator"> </span>
+                                <div class="clear"> </div>
+                            </li>
+                            <label class="checkbox"><input type="checkbox" name="checkbox" id="id_cb"><i> </i><span style="font-size: 13px">Provide Your IVE Student ID To Obtraining 10% Discount.</span></label>
+                            <li>
+                                <input type="text"   placeholder="IVE Student ID" id="stuid" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/>
+                                <span id="stuid_indicator"> </span>
+                                <br>
+                                <input list="campus" id="chcampus" placeholder="Study Campus" style="margin-left: 12px;font-size: 14px;border: 0;margin-bottom:10px " >
+                                <datalist id="campus">
+                                    <option value="Chai Wan">
+                                    <option value="Lee Wai Lee">
+                                    <option value="Morrison Hill">
+                                    <option value="Sha Tin">
+                                    <option value="Kwun Tong">
+                                    <option value="Haking Wong">
+                                    <option value="Tsing Yi">
+                                    <option value="Tuen Mun">
+                                    <option value="Kwai Chung">
+                                </datalist>
+
+                                <div class="clear"> </div>
+                            </li>
+
+                            <input type="submit" id="submit" value="Create Account">
+                            <div class="clear"> </div>
+                        </ul>
+                    </div>
+
+                    <div id="pic">
+                        <ul class="right-form" style="margin-top: 150px">
+                            <img src="images/main_oval_overview_tsingyi.jpg"/>
+                        </ul>
+
+                        <div class="clear"> </div>
+                    </div>
+                </div>
+
+                <div id="dialog-message-success" title="Registration Success !!">
+                    <p>
+                        <b>Congratulations !!</b>
+                        You have successfully registered and subscribed to the service!!
+                    </p>
+                </div>
+
+                <div id="dialog-message-fail" title="Registration Failure !!">
+                    <p>
+                        <b>Sorry !!</b>
+                        You have not entered proper information. Kindly re-submit the form!!
+                    </p>
+                </div>
+
+            </section>
+        </div>
+    </div>
+</div>
+<!-- FOOTER -->
+<footer class="line">
+</footer>
+<script type="text/javascript" src="js/responsee.js"></script>
+<script type="text/javascript" src="js/all.js"></script>
 </body>
 
 </html>
