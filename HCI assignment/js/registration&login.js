@@ -255,6 +255,7 @@ $(document).ready(function () {
             $("#email").val('');
             $("#stuid").val('');
             window.location = 'signup.html';
+
         }
         });
 
