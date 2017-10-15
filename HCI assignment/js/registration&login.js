@@ -246,7 +246,7 @@ $(document).ready(function () {
             })
                 .then((willDelete) => {
                 if(willDelete)
-                swal("Here's the title!", "...and here's the text!");
+                window.location = 'login.html';
         });
 
         } else {
