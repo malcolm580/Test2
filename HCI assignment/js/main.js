@@ -60,7 +60,7 @@ jQuery(document).ready(function($){
 	$('#checkoutBtn').on('click', function(){
 		$.session.set('productList', list);
 		window.location.href = "checkout.html";
-	})
+	});
 
 	function toggleCart(bool) {
 		var cartIsOpen = ( typeof bool === 'undefined' ) ? cartWrapper.hasClass('cart-open') : bool;
@@ -88,9 +88,9 @@ jQuery(document).ready(function($){
 		console.log("addToCart : "+$("#" + id + " a img").attr('src'));
 		console.log("addToCart : "+$("#" + id + " a h4 strong").text());
 		console.log("addToCart : "+$("#" + id + " a h4 span").text());
-		src = $("#" + id + " a img").attr('src');
+		src = $("#" + id + " a .content img").attr('src');
 		name = $("#" + id + " a h4 strong").text();
-		price = $("#" + id + " a h4 span").text();
+		price = $("#" + id + " a .product-price").text();
 		addProduct(id, name, src, price);
 		//update number of items 
 		updateCartCount(cartIsEmpty);
@@ -98,6 +98,9 @@ jQuery(document).ready(function($){
 		updateCartTotal(price, true);
 		//show cart
 		cartWrapper.removeClass('empty');
+        $.session.set("price"+[id] , price);
+        console.log($.session.get("price"+[id]));
+        console.log($.session.get("price"+[id]));
 	}
 
 	function addProduct(id, name, src, price) {
@@ -113,7 +116,7 @@ jQuery(document).ready(function($){
 						'</div>'+
 						'<div class="product_details">'+
 							'<span class="product_name">'+name+'</span>'+
-							'<span class="price">$'+price+' x 2</span>'+
+							'<span class="price">$'+price+'</span>'+
 						'</div>'+
 					'</div>';
 		list += p;

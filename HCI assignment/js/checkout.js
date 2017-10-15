@@ -16,18 +16,20 @@ $(document).ready(function() {
     $('#cont2').hide();
     $('#cont3').hide();
     $('.cc').css('opacity', '0.4');
+    $(".datepicker").datepicker();
         
     var p = $.session.get('productList');
     $('#productList').append(p);
+
     
     $('.shipping').on('change', function(){
         $('#sub_ship').text($(":checked").val());
-        $('#calculated_total').text((parseInt($(":checked").val())+parseInt($('#sub_price').text())));
-    })
+        // $('#calculated_total').text((parseInt($(":checked").val())+parseInt($('#sub_price').text())));
+    });
     
-    $('.shipping').on('click', function(value){
+    $('.datepicker').on('click', function(value){
         $('#cont1').show();
-    })
+    });
     
     $('#ccv').keypress(function(e) {
         if(e.keyCode == 13) {
