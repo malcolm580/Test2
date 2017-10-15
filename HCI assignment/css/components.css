@@ -25,6 +25,8 @@ ul.breadcrumb li a {color: #007ccc;}
 .new-product img{
   cursor:pointer;
 	margin: 0px 0px 10px 0px;
+    width : 500px;
+    height: 400px;
 }
 .new-product img:hover{
   opacity: 0.7;
