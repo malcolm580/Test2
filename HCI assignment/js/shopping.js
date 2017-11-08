@@ -1,13 +1,13 @@
 // JavaScript File
 $(document).ready(function() {
 
-    var availableSearch = [
-    "Vestin Residence Myeongdong",
-    "Hilton Tokyo"
-    ];
-    $("#search-product").autocomplete({
-        source: availableSearch
-    });
+    // var availableSearch = [
+    // "Vestin Residence Myeongdong",
+    // "Hilton Tokyo"
+    // ];
+    // $("#search-product").autocomplete({
+    //     source: availableSearch
+    // });
 
     /*
         search function
@@ -31,35 +31,35 @@ $(document).ready(function() {
     $('#sortlist').on('change', function() {
         $('.product-container').hide();
 
-        if ($(this).val() == "new") {
-            var date_array = [];
-            $('.product').each(function() {
-                date_array.push($(this).find('.product-date').text().replace('-', ''));
+        if ($(this).val() == "star") {
+            var star_array = [];
+            $('.full-product').each(function() {
+                star_array.push($(this).find('.product-star').text());
             });
 
-            date_array.sort();
+            star_array.sort();
 
-            $.each(date_array, function(index) {
-                var currentDate = date_array[index];
-                $.each($('.product'), function() {
-                    if ($(this).find('.product-date').text().replace('-', '') == currentDate) {
+            $.each(star_array, function(index) {
+                var starNumber = star_array[index];
+                $.each($('.full-product'), function() {
+                    if ($(this).find('.product-star').text() == starNumber) {
                         $(this).insertAfter($('#inser-after'));
                     }
                 });
             });
 
         }
-        else if ($(this).val() == "popular") {
-            var popular_array = [];
-            $('.product').each(function() {
-                popular_array.push($(this).find('.product-rating').text());
+        else if ($(this).val() == "rating") {
+            var rating = [];
+            $('.full-product').each(function() {
+                rating.push($(this).find('.product-rating').text());
             });
 
-            popular_array.sort();
+            rating.sort();
 
-            $.each(popular_array, function(index) {
-                var currentRating = popular_array[index];
-                $.each($('.product'), function() {
+            $.each(rating, function(index) {
+                var currentRating = rating[index];
+                $.each($('.full-product'), function() {
                     if ($(this).find('.product-rating').text() == currentRating) {
                         $(this).insertAfter($('#inser-after'));
                     }
@@ -68,24 +68,28 @@ $(document).ready(function() {
         }
         else if ($(this).val() == "lPrice") {
             var price_array = [];
-            $('.product').each(function() {
+            $('.full-product').each(function() {
                 price_array.push($(this).find('.product-price').text());
             });
 
-            price_array.sort();
+            price_array.sort(function(a,b){
+                return a - b
+            });
 
             $.each(price_array, function(index) {
                 var currentPrice = price_array[index];
-                $.each($('.product'), function() {
+                $.each($('.full-product'), function() {
                     if ($(this).find('.product-price').text() == currentPrice) {
                         $(this).insertBefore($('#inser-after'));
                     }
                 });
             });
         }
+
         $('.product-container').stop(true, true).effect('slide', {
             direction: "down"
         }, 500);
+
     });
 
 

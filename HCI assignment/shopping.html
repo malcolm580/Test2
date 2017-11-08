@@ -2,361 +2,848 @@
 <html lang="en-US">
 
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <title>HappyTravel Ltd.</title>
-   <link rel="stylesheet" href="css/components.css">
-   <link rel="stylesheet" href="css/icons.css">
-   <link rel="stylesheet" href="css/responsee.css">
-   <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
-   <link rel="stylesheet" href="css/cart_style.css"> <!-- Resource style -->
-   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-   <link rel="stylesheet" href="css/jquery-ui.css">
-   <script src="js/jquery.min.js"></script>
-   <script src="js/jquery-ui.min.js"></script>
-   <script src='js/jquery.zoom.js'></script>
-   <script src="js/jquery.session.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>HappyTravel Ltd.</title>
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/responsee.css">
+    <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+    <link rel="stylesheet" href="css/cart_style.css"> <!-- Resource style -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext'
+          rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src='js/jquery.zoom.js'></script>
+    <script src="js/jquery.session.js"></script>
 
 
-   <style>
+    <style>
 
-      .content img{
-         width: 200px;
-         height: 200px;
-      }
+        .content img {
+            width: 200px;
+            height: 200px;
+        }
 
-      .dialog-img{
-         width: 200px;
-         height: 200px;
-      }
+        .dialog-img {
+            width: 200px;
+            height: 200px;
+        }
 
-      .margin-bottom img{
-         width: 50px;
-         height: 50px;
-      }
+        .margin-bottom img {
+            width: 50px;
+            height: 50px;
+        }
 
-      .detailsTable {
-         display : none;
-      }
+        .detailsTable {
+            display: none;
+        }
 
-      .map{
-         width: 200px ;
-         height : 200px ;
-         border: 0;
-         float: right;
-      }
+        .map {
+            width: 200px;
+            height: 200px;
+            border: 0;
+            float: right;
+        }
 
-   </style>
+        .detailsTable {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .detailsTable th, td {
+            text-align: left;
+            padding: 8px;
+        }
+
+        .detailsTable tr:nth-child(even) {
+            background-color: #f2f2f2
+        }
+
+        .detailsTable th {
+            background-color: #2c97de;
+            color: white;
+        }
+
+    </style>
 
 </head>
 
 <body class="size-1280">
-   <!-- HEADER -->
-   <header>
+<!-- HEADER -->
+<header>
 
-   </header>
-   <!-- ASIDE NAV AND CONTENT -->
-   <span id="active-page" style="display:none;">Hotels</span>
-   <div class="line">
-      <div class="box margin-bottom" style="padding:0; padding-left: 1.25rem;">
-         <div class="margin">
+</header>
+<!-- ASIDE NAV AND CONTENT -->
+<span id="active-page" style="display:none;">Hotels</span>
+<div class="line">
+    <div class="box margin-bottom" style="padding:0; padding-left: 1.25rem;">
+        <div class="margin">
             <ul class="breadcrumb">
-              <li><a href="index.html">Home</a></li>
-              <li>Hotels</li>
+                <li><a href="index.html">Home</a></li>
+                <li>Hotels</li>
             </ul>
-         </div>
-      </div>
-   </div>
-   <div class="line">
-      <div class="box">
-         <div class="margin2x">
+        </div>
+    </div>
+</div>
+<div class="line">
+    <div class="box">
+        <div class="margin2x">
             <!-- CONTENT -->
             <section class="s-12 m-8 l-9 right">
 
-               <div class="margin product-container">
-                  <div id="inser-after"></div>
+                <div class="margin product-container">
+                    <div id="inser-after"></div>
 
-                  <!--Product1-->
-                 <div class="full-product Tokyo">
-                    <div class="product product-usb" id="1">
-                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12961.459677812458!2d139.6911213!3d35.6926366!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8548635f1933c70e!2z5p2x5Lqs5biM54i-6aCT6YWS5bqX!5e0!3m2!1szh-TW!2shk!4v1507997692605"  frameborder="0"  allowfullscreen></iframe>
-                       <a class="product-info" title="Click To Show More Details">
-                          <h4 style="display: none"><strong>Hilton Tokyo</strong></h4>
-                          <span class="product-code" style="display:none;">hotel-1</span>
-                          <span class="product-rating" style="display:none;">5</span>
-                          <span class="product-date" style="display:none;">2017-10-1</span>
-                          <div class="content">
-                             <img src="img/Tokyo_Hilton.png" style="float: left">
-                             <div class="margin-bottom">
-                                <h4>Address : 6-6-2, Nishi-Shinjuku, Shinjuku-ku <br></h4>
-                                <h4>Minimum consumption (HKD) : <span class="product-price">2793</span> <br></h4>
-                                <h4> Services : <img src="logos/wifi.png" alt="wifi"><img src="logos/parking.png" alt="parking">
-                                   <img src="logos/restaurant.png" alt="restaurant"></h4>
+                    <!--Product1-->
+                    <div class="full-product Tokyo">
+                        <div class="product" id="1">
+                            <iframe class="map"
+                                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12961.459677812458!2d139.6911213!3d35.6926366!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8548635f1933c70e!2z5p2x5Lqs5biM54i-6aCT6YWS5bqX!5e0!3m2!1szh-TW!2shk!4v1507997692605"
+                                    frameborder="0" allowfullscreen></iframe>
+                            <a class="product-info" title="Click To Show More Details">
+                                <h4 style="display: none"><strong>Hilton Tokyo</strong></h4>
+                                <span class="product-code" style="display:none;">hotel-1</span>
+                                <span class="product-rating" style="display:none;">4.7</span>
+                                <span class="product-star" style="display:none;">5</span>
+                                <span class="product-price" style="display:none;">2793</span>
+                                <div class="content">
+                                    <img src="img/Tokyo_Hilton.png" style="float: left">
+                                    <div class="margin-bottom">
+                                        <h4>Address : 6-6-2, Nishi-Shinjuku, Shinjuku-ku <br></h4>
+                                        <h4>Minimum consumption (HKD) : <span>2793</span> <br>
+                                        </h4>
+                                        <h4> Services : <img src="logos/wifi.png" alt="wifi"><img
+                                                src="logos/parking.png" alt="parking">
+                                            <img src="logos/restaurant.png" alt="restaurant"></h4>
 
-                                <h4> Stars :
-                                   <span class="fiveStar">
+                                        <h4> Stars :
+                                            <span class="fiveStar">
                                  <img src="logos/star.png" alt="star">
                                  <img src="logos/star.png" alt="star">
                                  <img src="logos/star.png" alt="star">
                                  <img src="logos/star.png" alt="star">
                                  <img src="logos/star.png" alt="star">
                                  </span>
-                                </h4>
-                                <h3> User rating : <span class="product-rating">4.7</span>/5.0</h3>
-                             </div>
-                          </div>
-                       </a>
-                       <form class="customform s-12 margin-bottom2x" action="">
-                          <div><button id="name1" class="button rounded-btn submit-btn s-12 cd-add-to-cart product-name" value="1">Hilton Tokyo</button></div>
-                       </form>
-                       <div class="product-dialog" id="product-dialog-hotel-1" title="Hilton Tokyo">
+                                        </h4>
+                                        <h3> User rating : <span>4.7</span>/5.0</h3>
+                                    </div>
+                                </div>
+                            </a>
+                            <form class="customform s-12 margin-bottom2x" action="">
+                                <div>
+                                    <button id="name1"
+                                            class="button rounded-btn submit-btn s-12 cd-add-to-cart product-name"
+                                            value="1">Hilton Tokyo
+                                    </button>
+                                </div>
+                            </form>
+                            <div class="product-dialog" id="product-dialog-hotel-1" title="Hilton Tokyo">
                         <span class='l-5 dialog-img'>
                      		<img src="img/Tokyo_Hilton.png">
                      	</span>
-                          <div class="l-7">
-                             <table class="detailsTable" >
-                                <tr>
-                                   <th>Room Type</th>
-                                   <th>Area (m2)</th>
-                                   <th>Price</th>
-                                   <th>Facilities</th>
-                                </tr>
-                                <tr>
-                                   <td>Single</td>
-                                   <td>30</td>
-                                   <td>$300</td>
-                                   <td>Desk, ironing facilities, air conditioning</td>
-                                </tr>
-                                <tr>
-                                   <td>Twins</td>
-                                   <td>40</td>
-                                   <td>$400</td>
-                                   <td>Desk, ironing facilities, air conditioning,Electric kettle, coffee maker / teapot</td>
-                                </tr>
-                                <tr>
-                                   <td>VIP room</td>
-                                   <td>50</td>
-                                   <td>$400</td>
-                                   <td>Desk, ironing facilities, air conditioning,Electric kettle, coffee maker / teapot, mini bar, small fridge</td>
-                                </tr>
-                             </table>
-                          </div>
-                       </div>
+                                <div class="l-7">
+                                    <table class="detailsTable">
+                                        <tr>
+                                            <th>Room Type</th>
+                                            <th>Area (m2)</th>
+                                            <th>Price</th>
+                                            <th>Facilities</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Single</td>
+                                            <td>30</td>
+                                            <td>$300</td>
+                                            <td>Desk, ironing facilities, air conditioning</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Twins</td>
+                                            <td>40</td>
+                                            <td>$400</td>
+                                            <td>Desk, ironing facilities, air conditioning,Electric kettle, coffee maker
+                                                / teapot
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIP room</td>
+                                            <td>50</td>
+                                            <td>$400</td>
+                                            <td>Desk, ironing facilities, air conditioning,Electric kettle, coffee maker
+                                                / teapot, mini bar, small fridge
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                 </div>
 
-                  <!--Product2-->
-                  <div class="full-product Seoul">
-                     <div class="product product-usb" id="2">
-                     <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12651.170892501992!2d126.987516!3d37.559947!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4fa5a3c19789507d!2sVestin+Residence+Myeongdong!5e0!3m2!1szh-TW!2shk!4v1508001401223" frameborder="0"  allowfullscreen></iframe>
-                        <a class="product-info" title="Click To Show More Details">
-                           <h4 style="display: none"><strong>Vestin Residence Myeongdong</strong></h4>
-                           <span class="product-code" style="display:none;">hotel-2</span>
-                           <span class="product-rating" style="display:none;">5</span>
-                           <span class="product-date" style="display:none;">2017-10-14</span>
-                           <div class="content">
-                              <img src="img/Seoul_Vestin_Residence.png" style="float: left">
-                              <div class="margin-bottom">
-                                 <h4>Address : 19-1, 3-ga, Namsan-dong, Jung-gu, Myeong-dong, Jung-gu, Seoul <br></h4>
-                                 <h4>Minimum consumption (HKD) : <span class="product-price">192</span> <br></h4>
-                                 <h4> Services : 
-                                    <img src="logos/wifi.png" alt="wifi">
-                                    <img src="logos/parking.png" alt="parking">
-                                    <img src="logos/restaurant.png" alt="restaurant">
-                                    <img src="logos/fax.png" alt="">
-                                 </h4>
+                    <!--Product2-->
+                    <div class="full-product Seoul">
+                        <div class="product" id="2">
+                            <iframe class="map"
+                                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12651.170892501992!2d126.987516!3d37.559947!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4fa5a3c19789507d!2sVestin+Residence+Myeongdong!5e0!3m2!1szh-TW!2shk!4v1508001401223"
+                                    frameborder="0" allowfullscreen></iframe>
+                            <a class="product-info" title="Click To Show More Details">
+                                <h4 style="display: none"><strong>Vestin Residence Myeongdong</strong></h4>
+                                <span class="product-code" style="display:none;">hotel-2</span>
+                                <span class="product-rating" style="display:none;">4.6</span>
+                                <span class="product-star" style="display:none;">3</span>
+                                <div class="content">
+                                    <img src="img/Seoul_Vestin_Residence.png" style="float: left">
+                                    <div class="margin-bottom">
+                                        <h4>Address : 19-1, 3-ga, Namsan-dong, Jung-gu, Myeong-dong, Jung-gu, Seoul <br>
+                                        </h4>
+                                        <h4>Minimum consumption (HKD) : <span class="product-price">192</span> <br></h4>
+                                        <h4> Services :
+                                            <img src="logos/wifi.png" alt="wifi">
+                                            <img src="logos/parking.png" alt="parking">
+                                            <img src="logos/restaurant.png" alt="restaurant">
+                                            <img src="logos/fax.png" alt="">
+                                        </h4>
 
-                                 <h4> Stars :
-                                    <span class="fiveStar">
-                                 <img src="logos/star.png" alt="star">
-                                 <img src="logos/star.png" alt="star">
-                                 <img src="logos/star.png" alt="star">
-
-                                 </span>
-                                 </h4>
-                                 <h3> User rating : <span class="product-rating">4.6</span>/5.0</h3>
-                              </div>
-                           </div>
-                        </a>
-                        <form class="customform s-12 margin-bottom2x" action="">
-                           <div><button class="button rounded-btn submit-btn s-12 cd-add-to-cart product-name" value="2">Vestin Residence Myeongdong</button></div>
-                        </form>
-                        <div class="product-dialog" id="product-dialog-hotel-2" title="Vestin Residence Myeongdong">
-                        <span class='l-5 dialog-img'>
-                     		<img src="img/Seoul_Vestin_Residence.png">
-                     	</span>
-                           <div class="l-7">
-                              <table class="detailsTable" >
-                                 <tr>
-                                    <th>Room Type</th>
-                                    <th>Area (m2)</th>
-                                    <th>Price</th>
-                                    <th>Facilities</th>
-                                 </tr>
-                                 <tr>
-                                    <td>Single</td>
-                                    <td>30</td>
-                                    <td>$192</td>
-                                    <td>Desk, ironing facilities, air conditioning</td>
-                                 </tr>
-                                 <tr>
-                                    <td>Twins</td>
-                                    <td>40</td>
-                                    <td>$400</td>
-                                    <td>Desk, ironing facilities, air conditioning,Electric kettle, coffee maker / teapot</td>
-                                 </tr>
-                                 <tr>
-                                    <td>VIP room</td>
-                                    <td>50</td>
-                                    <td>$400</td>
-                                    <td>Desk, ironing facilities, air conditioning,Electric kettle, coffee maker / teapot, mini bar, small fridge</td>
-                                 </tr>
-                              </table>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  
-                  <!--Product3-->
-                  <div class="full-product Seoul">
-                     <div class="product product-usb" id="3">
-                        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.8584106808826!2d126.98279801556482!3d37.55839953235125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2f73f568f31%3A0x8868a39fd925a5dc!2sZoayo+Guesthouse!5e0!3m2!1szh-TW!2shk!4v1510146456783"  frameborder="0"  allowfullscreen></iframe>
-                        <a class="product-info" title="Click To Show More Details">
-                           <h4 style="display: none"><strong>Zoayo Guest House Seoul</strong></h4>
-                           <span class="product-code" style="display:none;">hotel-3</span>
-                           <span class="product-rating" style="display:none;">3</span>
-                           <span class="product-date" style="display:none;">2017-10-3</span>
-                           <div class="content">
-                              <img src="img/Zoayo_Guest_House_Seoul.jpg" style="float: left">
-                              <div class="margin-bottom">
-                                 <h4>Address :Sogong-ro 6-gil, Jung-gu 34, Seoul <br></h4>
-                                 <h4>Minimum consumption (HKD) : <span class="product-price">359</span> <br></h4>
-                                 <h4> Services :
-                                    <img src="logos/wifi.png" alt="wifi">
-                                    <img src="logos/restaurant.png" alt="restaurant">
-                                    <img src="logos/fax.png" alt="Fax Service">
-                                 </h4>
-
-                                 <h4> Stars :
-                                    <span class="fiveStar">
+                                        <h4> Stars :
+                                            <span class="fiveStar">
                                  <img src="logos/star.png" alt="star">
                                  <img src="logos/star.png" alt="star">
                                  <img src="logos/star.png" alt="star">
 
                                  </span>
-                                 </h4>
-                                 <h3> User rating : <span class="product-rating">4.8</span>/5.0</h3>
-                              </div>
-                           </div>
-                        </a>
-                        <form class="customform s-12 margin-bottom2x" action="">
-                           <div><button class="button rounded-btn submit-btn s-12 cd-add-to-cart product-name" value="3">Zoayo Guest House Seoul</button></div>
-                        </form>
-                        <div class="product-dialog" id="product-dialog-hotel-3" title="Zoayo Guest House Seoul">
-                        <span class='l-5 dialog-img'>
-                     		<img src="img/Zoayo_Guest_House_Seoul.jpg">
-                     	</span>
-                           <div class="l-7">
-                              <table class="detailsTable" >
-                                 <tr>
-                                    <th>Room Type</th>
-                                    <th>Area (m2)</th>
-                                    <th>Price</th>
-                                    <th>Facilities</th>
-                                 </tr>
-                                 <tr>
-                                    <td>Single</td>
-                                    <td>30</td>
-                                    <td>$192</td>
-                                    <td>Desk, ironing facilities, air conditioning</td>
-                                 </tr>
-                                 <tr>
-                                    <td>Twins</td>
-                                    <td>40</td>
-                                    <td>$400</td>
-                                    <td>Desk, ironing facilities, air conditioning,Electric kettle, coffee maker / teapot</td>
-                                 </tr>
-                                 <tr>
-                                    <td>VIP room</td>
-                                    <td>50</td>
-                                    <td>$400</td>
-                                    <td>Desk, ironing facilities, air conditioning,Electric kettle, coffee maker / teapot, mini bar, small fridge</td>
-                                 </tr>
-                              </table>
-                           </div>
+                                        </h4>
+                                        <h3> User rating : <span>4.6</span>/5.0</h3>
+                                    </div>
+                                </div>
+                            </a>
+                            <form class="customform s-12 margin-bottom2x" action="">
+                                <div>
+                                    <button class="button rounded-btn submit-btn s-12 cd-add-to-cart product-name"
+                                            value="2">Vestin Residence Myeongdong
+                                    </button>
+                                </div>
+                            </form>
+                            <div class="product-dialog" id="product-dialog-hotel-2" title="Vestin Residence Myeongdong">
+                                <span class='l-5 dialog-img'>
+                                    <img src="img/Seoul_Vestin_Residence.png">
+                                </span>
+                                <div class="l-7">
+                                    <table class="detailsTable">
+                                        <tr>
+                                            <th>Room Type</th>
+                                            <th>Area (m2)</th>
+                                            <th>Price</th>
+                                            <th>Facilities</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Single</td>
+                                            <td>30</td>
+                                            <td>$192</td>
+                                            <td>Desk, ironing facilities, air conditioning</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Twins</td>
+                                            <td>40</td>
+                                            <td>$400</td>
+                                            <td>Desk, ironing facilities, air conditioning,Electric kettle, coffee maker
+                                                / teapot
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIP room</td>
+                                            <td>50</td>
+                                            <td>$400</td>
+                                            <td>Desk, ironing facilities, air conditioning,Electric kettle, coffee maker
+                                                / teapot, mini bar, small fridge
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
                         </div>
-                     </div>
-                  </div>
-               </div>
+                    </div>
+
+                    <!--Product3-->
+                    <div class="full-product Seoul">
+                        <div class="product" id="3">
+                            <iframe class="map"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.8584106808826!2d126.98279801556482!3d37.55839953235125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2f73f568f31%3A0x8868a39fd925a5dc!2sZoayo+Guesthouse!5e0!3m2!1szh-TW!2shk!4v1510146456783"
+                                    frameborder="0" allowfullscreen></iframe>
+                            <a class="product-info" title="Click To Show More Details">
+                                <h4 style="display: none"><strong>Zoayo Guest House Seoul</strong></h4>
+                                <span class="product-code" style="display:none;">hotel-3</span>
+                                <span class="product-rating" style="display:none;">4.8</span>
+                                <span class="product-star" style="display:none;">3</span>
+                                <div class="content">
+                                    <img src="img/Zoayo_Guest_House_Seoul.jpg" style="float: left">
+                                    <div class="margin-bottom">
+                                        <h4>Address :Sogong-ro 6-gil, Jung-gu 34, Seoul <br></h4>
+                                        <h4>Minimum consumption (HKD) : <span class="product-price">359</span> <br></h4>
+                                        <h4> Services :
+                                            <img src="logos/wifi.png" alt="wifi">
+                                            <img src="logos/restaurant.png" alt="restaurant">
+                                            <img src="logos/fax.png" alt="Fax Service">
+                                        </h4>
+
+                                        <h4> Stars :
+                                            <span class="fiveStar">
+                                 <img src="logos/star.png" alt="star">
+                                 <img src="logos/star.png" alt="star">
+                                 <img src="logos/star.png" alt="star">
+
+                                 </span>
+                                        </h4>
+                                        <h3> User rating : <span>4.8</span>/5.0</h3>
+                                    </div>
+                                </div>
+                            </a>
+                            <form class="customform s-12 margin-bottom2x" action="">
+                                <div>
+                                    <button class="button rounded-btn submit-btn s-12 cd-add-to-cart product-name"
+                                            value="3">Zoayo Guest House Seoul
+                                    </button>
+                                </div>
+                            </form>
+                            <div class="product-dialog" id="product-dialog-hotel-3" title="Zoayo Guest House Seoul">
+                                <span class='l-5 dialog-img'>
+                                    <img src="img/Zoayo_Guest_House_Seoul.jpg">
+                                </span>
+                                <div class="l-7">
+                                    <table class="detailsTable">
+                                        <tr>
+                                            <th>Room Type</th>
+                                            <th>Area (m2)</th>
+                                            <th>Price</th>
+                                            <th>Facilities</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Single</td>
+                                            <td>30</td>
+                                            <td>$192</td>
+                                            <td>Desk, ironing facilities, air conditioning</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Twins</td>
+                                            <td>40</td>
+                                            <td>$400</td>
+                                            <td>Desk, ironing facilities, air conditioning,Electric kettle, coffee maker
+                                                / teapot
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIP room</td>
+                                            <td>50</td>
+                                            <td>$400</td>
+                                            <td>Desk, ironing facilities, air conditioning,Electric kettle, coffee maker
+                                                / teapot, mini bar, small fridge
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Product4-->
+                    <div class="full-product Seoul">
+                        <div class="product" id="4">
+                            <iframe class="map"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25302.85473447933!2d126.9674771193067!3d37.55843649245228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca3201816da05%3A0x3f611c89fb085a27!2sKorea+Residence+%26+Hotel!5e0!3m2!1szh-TW!2shk!4v1510157005787"
+                                    frameborder="0" allowfullscreen></iframe>
+                            <a class="product-info" title="Click To Show More Details">
+                                <h4 style="display: none"><strong>Korea Residence & Hotel Seoul</strong></h4>
+                                <span class="product-code" style="display:none;">hotel-4</span>
+                                <span class="product-rating" style="display:none;">4.5</span>
+                                <span class="product-star" style="display:none;">3</span>
+                                <div class="content">
+                                    <img src="img/Korea_Residence_Hotel_Seoul.jpg" style="float: left">
+                                    <div class="margin-bottom">
+                                        <h4>Address :96-1 Jugyo-dong (188 Cheonggyecheon-ro) <br></h4>
+                                        <h4>Minimum consumption (HKD) : <span class="product-price">334</span> <br></h4>
+                                        <h4> Services :
+                                            <img src="logos/wifi.png" alt="wifi">
+                                            <img src="logos/restaurant.png" alt="restaurant">
+                                            <img src="logos/fax.png" alt="Fax Service">
+                                            <img src="logos/water.png" alt="Water Service">
+                                        </h4>
+
+                                        <h4> Stars :
+                                            <span class="fiveStar">
+                                 <img src="logos/star.png" alt="star">
+                                 <img src="logos/star.png" alt="star">
+                                 <img src="logos/star.png" alt="star">
+
+                                 </span>
+                                        </h4>
+                                        <h3> User rating : <span>4.5</span>/5.0</h3>
+                                    </div>
+                                </div>
+                            </a>
+                            <form class="customform s-12 margin-bottom2x" action="">
+                                <div>
+                                    <button class="button rounded-btn submit-btn s-12 cd-add-to-cart product-name"
+                                            value="4">Korea Residence & Hotel Seoul
+                                    </button>
+                                </div>
+                            </form>
+                            <div class="product-dialog" id="product-dialog-hotel-4"
+                                 title="Korea Residence & Hotel Seoul">
+                                <span class='l-5 dialog-img'>
+                                    <img src="img/Korea_Residence_Hotel_Seoul.jpg">
+                                </span>
+                                <div class="l-7">
+                                    <table class="detailsTable">
+                                        <tr>
+                                            <th>Room Type</th>
+                                            <th>Area (m2)</th>
+                                            <th>Price</th>
+                                            <th>Facilities</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Single</td>
+                                            <td>30</td>
+                                            <td>$192</td>
+                                            <td>Desk, ironing facilities, air conditioning</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Twins</td>
+                                            <td>40</td>
+                                            <td>$400</td>
+                                            <td>Desk, ironing facilities, air conditioning,Electric kettle, coffee maker
+                                                / teapot
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIP room</td>
+                                            <td>50</td>
+                                            <td>$400</td>
+                                            <td>Desk, ironing facilities, air conditioning,Electric kettle, coffee maker
+                                                / teapot, mini bar, small fridge
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Product5-->
+                    <div class="full-product Seoul">
+                        <div class="product" id="5">
+                            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.6044417559906!2d126.9778693155649!3d37.564382232008825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2f146af4e39%3A0xe28f4800e1b8a3c5!2sThe+Westin+Chosun+Seoul!5e0!3m2!1szh-TW!2shk!4v1510157430299" frameborder="0" allowfullscreen></iframe>
+                            <a class="product-info" title="Click To Show More Details">
+                                <h4 style="display: none"><strong>The Westin Chosun Seoul</strong></h4>
+                                <span class="product-code" style="display:none;">hotel-5</span>
+                                <span class="product-rating" style="display:none;">4.8</span>
+                                <span class="product-star" style="display:none;">5</span>
+                                <div class="content">
+                                    <img src="img/The_WestinChosunSeoul.jpg" style="float: left">
+                                    <div class="margin-bottom">
+                                        <h4>Address :106, Sogong-ro, Jung-gu <br></h4>
+                                        <h4>Minimum consumption (HKD) : <span class="product-price">1625</span> <br>
+                                        </h4>
+                                        <h4> Services :
+                                            <img src="logos/wifi.png" alt="wifi">
+                                            <img src="logos/restaurant.png" alt="restaurant">
+                                            <img src="logos/fax.png" alt="Fax Service">
+                                            <img src="logos/water.png" alt="Water Service">
+                                            <img src="logos/mosquito-insect-and-net-in-black.png" alt="Mosquito Net">
+                                        </h4>
+
+                                        <h4> Stars :
+                                            <span class="fiveStar">
+                                 <img src="logos/star.png" alt="star">
+                                 <img src="logos/star.png" alt="star">
+                                 <img src="logos/star.png" alt="star">
+                                                <img src="logos/star.png" alt="star">
+                                                <img src="logos/star.png" alt="star">
+                                 </span>
+                                        </h4>
+                                        <h3> User rating : <span>4.8</span>/5.0</h3>
+                                    </div>
+                                </div>
+                            </a>
+                            <form class="customform s-12 margin-bottom2x" action="">
+                                <div>
+                                    <button class="button rounded-btn submit-btn s-12 cd-add-to-cart product-name"
+                                            value="5">The Westin Chosun Seoul
+                                    </button>
+                                </div>
+                            </form>
+                            <div class="product-dialog" id="product-dialog-hotel-5" title="The Westin Chosun Seoul">
+                                <span class='l-5 dialog-img'>
+                                    <img src="img/The_WestinChosunSeoul.jpg.jpg">
+                                </span>
+                                <div class="l-7">
+                                    <table class="detailsTable">
+                                        <tr>
+                                            <th>Room Type</th>
+                                            <th>Area (m2)</th>
+                                            <th>Price</th>
+                                            <th>Facilities</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Single</td>
+                                            <td>30</td>
+                                            <td>$192</td>
+                                            <td>Desk, ironing facilities, air conditioning</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Twins</td>
+                                            <td>40</td>
+                                            <td>$400</td>
+                                            <td>Desk, ironing facilities, air conditioning,Electric kettle, coffee maker
+                                                / teapot
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIP room</td>
+                                            <td>50</td>
+                                            <td>$400</td>
+                                            <td>Desk, ironing facilities, air conditioning,Electric kettle, coffee maker
+                                                / teapot, mini bar, small fridge
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Product6-->
+                    <div class="full-product Tokyo">
+                        <div class="product" id="6">
+                            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.872490494902!2d139.7327460155269!3d35.68014153763863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c7c4e4db6cb%3A0x2f7c5eaecb26ebde!2z44Ob44OG44Or44OL44Ol44O844Kq44O844K_44OLIOOCrOODvOODh-ODs-OCv-ODr-ODvCAvIEhvdGVsIE5ldyBPdGFuaSBUb2t5bywgR2FyZGVuIFRvd2Vy!5e0!3m2!1szh-TW!2shk!4v1510157667163" frameborder="0"  allowfullscreen></iframe>
+                            <a class="product-info" title="Click To Show More Details">
+                                <h4 style="display: none"><strong>Hotel New Otani Tokyo Garden Tower</strong></h4>
+                                <span class="product-code" style="display:none;">hotel-6</span>
+                                <span class="product-rating" style="display:none;">4.8</span>
+                                <span class="product-star" style="display:none;">4</span>
+                                <span class="product-price" style="display:none;">1557</span>
+                                <div class="content">
+                                    <img src="img/HotelNewOtaniTokyoGardenTower.jpg" style="float: left">
+                                    <div class="margin-bottom">
+                                        <h4>Address : 4-1 Kioi-cho, Chiyoda-ku  <br></h4>
+                                        <h4>Minimum consumption (HKD) : <span>1557</span> <br>
+                                        </h4>
+                                        <h4> Services : <img src="logos/wifi.png" alt="wifi"><img
+                                                src="logos/parking.png" alt="parking">
+                                            <img src="logos/restaurant.png" alt="restaurant"></h4>
+
+                                        <h4> Stars :
+                                            <span class="fiveStar">
+                                 <img src="logos/star.png" alt="star">
+                                 <img src="logos/star.png" alt="star">
+                                 <img src="logos/star.png" alt="star">
+                                 <img src="logos/star.png" alt="star">
+
+                                 </span>
+                                        </h4>
+                                        <h3> User rating : <span>4.8</span>/5.0</h3>
+                                    </div>
+                                </div>
+                            </a>
+                            <form class="customform s-12 margin-bottom2x" action="">
+                                <div>
+                                    <button
+                                            class="button rounded-btn submit-btn s-12 cd-add-to-cart product-name"
+                                            value="6">Hotel New Otani Tokyo Garden Tower
+                                    </button>
+                                </div>
+                            </form>
+                            <div class="product-dialog" id="product-dialog-hotel-6" title="Hotel New Otani Tokyo Garden Tower">
+                        <span class='l-5 dialog-img'>
+                     		<img src="img/HotelNewOtaniTokyoGardenTower.jpg">
+                     	</span>
+                                <div class="l-7">
+                                    <table class="detailsTable">
+                                        <tr>
+                                            <th>Room Type</th>
+                                            <th>Area (m2)</th>
+                                            <th>Price</th>
+                                            <th>Facilities</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Single</td>
+                                            <td>30</td>
+                                            <td>$300</td>
+                                            <td>Desk, ironing facilities, air conditioning</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Twins</td>
+                                            <td>40</td>
+                                            <td>$400</td>
+                                            <td>Desk, ironing facilities, air conditioning,Electric kettle, coffee maker
+                                                / teapot
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIP room</td>
+                                            <td>50</td>
+                                            <td>$400</td>
+                                            <td>Desk, ironing facilities, air conditioning,Electric kettle, coffee maker
+                                                / teapot, mini bar, small fridge
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Product7-->
+                    <div class="full-product Tokyo">
+                        <div class="product" id="7">
+                            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.0305169545104!2d139.74693371552726!3d35.70086663650169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c4117abb015%3A0x1a77921c20f596fd!2sHotel+Metropolitan+Edmont!5e0!3m2!1szh-TW!2shk!4v1510160367809" frameborder="0" allowfullscreen></iframe>
+                            <a class="product-info" title="Click To Show More Details">
+                                <h4 style="display: none"><strong>Hotel Metropolitan Edmont Tokyo</strong></h4>
+                                <span class="product-code" style="display:none;">hotel-7</span>
+                                <span class="product-rating" style="display:none;">4.8</span>
+                                <span class="product-star" style="display:none;">4</span>
+                                <span class="product-price" style="display:none;">613</span>
+                                <div class="content">
+                                    <img src="img/HotelMetropolitanEdmontTokyo.jpg" style="float: left">
+                                    <div class="margin-bottom">
+                                        <h4>Address : 3-10-8 Iidabashi, Chiyoda-ku  <br></h4>
+                                        <h4>Minimum consumption (HKD) : <span>613</span> <br>
+                                        </h4>
+                                        <h4> Services :
+                                            <img src="logos/wifi.png" alt="wifi">
+                                            <img src="logos/parking.png" alt="parking">
+                                            <img src="logos/restaurant.png" alt="restaurant">
+                                            <img src="logos/fax.png" alt="Fax Service">
+                                            <img src="logos/water.png" alt="Water Service">
+                                        </h4>
+
+                                        <h4> Stars :
+                                            <span class="fiveStar">
+                                 <img src="logos/star.png" alt="star">
+                                 <img src="logos/star.png" alt="star">
+                                 <img src="logos/star.png" alt="star">
+                                 <img src="logos/star.png" alt="star">
+
+                                 </span>
+                                        </h4>
+                                        <h3> User rating : <span>4.8</span>/5.0</h3>
+                                    </div>
+                                </div>
+                            </a>
+                            <form class="customform s-12 margin-bottom2x" action="">
+                                <div>
+                                    <button
+                                            class="button rounded-btn submit-btn s-12 cd-add-to-cart product-name"
+                                            value="7">Hotel Metropolitan Edmont Tokyo
+                                    </button>
+                                </div>
+                            </form>
+                            <div class="product-dialog" id="product-dialog-hotel-7" title="Hotel Metropolitan Edmont Tokyo">
+                        <span class='l-5 dialog-img'>
+                     		<img src="img/HotelMetropolitanEdmontTokyo.jpg">
+                     	</span>
+                                <div class="l-7">
+                                    <table class="detailsTable">
+                                        <tr>
+                                            <th>Room Type</th>
+                                            <th>Area (m2)</th>
+                                            <th>Price</th>
+                                            <th>Facilities</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Single</td>
+                                            <td>30</td>
+                                            <td>$300</td>
+                                            <td>Desk, ironing facilities, air conditioning</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Twins</td>
+                                            <td>40</td>
+                                            <td>$400</td>
+                                            <td>Desk, ironing facilities, air conditioning,Electric kettle, coffee maker
+                                                / teapot
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIP room</td>
+                                            <td>50</td>
+                                            <td>$400</td>
+                                            <td>Desk, ironing facilities, air conditioning,Electric kettle, coffee maker
+                                                / teapot, mini bar, small fridge
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Product8-->
+                    <div class="full-product Tokyo">
+                        <div class="product" id="8">
+                            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.456589225807!2d139.7905677155277!3d35.71498783572677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ebffda77923%3A0xc2a40fd1b0e17449!2z5Lqs6Ziq5re66I2J6aOv5bqX!5e0!3m2!1szh-TW!2shk!4v1510160753240" frameborder="0"  allowfullscreen></iframe>
+                            <a class="product-info" title="Click To Show More Details">
+                                <h4 style="display: none"><strong>Hotel Keihan Asakusa Tokyo</strong></h4>
+                                <span class="product-code" style="display:none;">hotel-8</span>
+                                <span class="product-rating" style="display:none;">4.6</span>
+                                <span class="product-star" style="display:none;">3</span>
+                                <span class="product-price" style="display:none;">659</span>
+                                <div class="content">
+                                    <img src="img/HotelKeihanAsakusaTokyo.jpg" style="float: left">
+                                    <div class="margin-bottom">
+                                        <h4>Address : 2-12-4 Asakusa, Taito-ku  <br></h4>
+                                        <h4>Minimum consumption (HKD) : <span>659</span> <br>
+                                        </h4>
+                                        <h4> Services :
+                                            <img src="logos/wifi.png" alt="wifi">
+                                            <img src="logos/parking.png" alt="parking">
+                                            <img src="logos/restaurant.png" alt="restaurant">
+                                            <img src="logos/water.png" alt="Water Service">
+                                        </h4>
+
+                                        <h4> Stars :
+                                            <span class="fiveStar">
+                                 <img src="logos/star.png" alt="star">
+                                 <img src="logos/star.png" alt="star">
+                                 <img src="logos/star.png" alt="star">
+
+                                 </span>
+                                        </h4>
+                                        <h3> User rating : <span>4.6</span>/5.0</h3>
+                                    </div>
+                                </div>
+                            </a>
+                            <form class="customform s-12 margin-bottom2x" action="">
+                                <div>
+                                    <button
+                                            class="button rounded-btn submit-btn s-12 cd-add-to-cart product-name"
+                                            value="8">Hotel Keihan Asakusa Tokyo
+                                    </button>
+                                </div>
+                            </form>
+                            <div class="product-dialog" id="product-dialog-hotel-8" title="Hotel Keihan Asakusa Tokyo">
+                        <span class='l-5 dialog-img'>
+                     		<img src="img/HotelKeihanAsakusaTokyo.jpg">
+                     	</span>
+                                <div class="l-7">
+                                    <table class="detailsTable">
+                                        <tr>
+                                            <th>Room Type</th>
+                                            <th>Area (m2)</th>
+                                            <th>Price</th>
+                                            <th>Facilities</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Single</td>
+                                            <td>30</td>
+                                            <td>$300</td>
+                                            <td>Desk, ironing facilities, air conditioning</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Twins</td>
+                                            <td>40</td>
+                                            <td>$400</td>
+                                            <td>Desk, ironing facilities, air conditioning,Electric kettle, coffee maker
+                                                / teapot
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>VIP room</td>
+                                            <td>50</td>
+                                            <td>$400</td>
+                                            <td>Desk, ironing facilities, air conditioning,Electric kettle, coffee maker
+                                                / teapot, mini bar, small fridge
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
             </section>
+
+
             <!-- ASIDE NAV -->
             <aside class="s-12 m-4 l-3">
-               <form class="customform" onsubmit="return false;">
-                  <label id="customform-label" for="search-product">Search</label>
-                  <p class="margin-bottom2x">
-                     <input type="text" id="search-product" placeholder="Search the Hotels" title="Search the Products" style="margin-top:10px;" />
-                  </p>
-                  <label id="customform-label" for="sortlist">Sort</label>
-                  <p class="margin-bottom2x">
-                     <select id="sortlist" style="margin-top:10px;">
-                        <option value="new">New Added</option>
-                        <option value="popular">Most Popular</option>
-                        <option value="lPrice">Lowest Price</option>
-                     </select>
-                  </p>
-                  <label id="customform-label">Destination</label>
-                  <p>
-                     <div>
-                        <input type="checkbox" value="Tokyo" id="usb" name="categories" style="margin-bottom:10px;margin-top:10px;" />
+                <form class="customform" onsubmit="return false;">
+                    <label id="customform-label" for="search-product">Search</label>
+                    <p class="margin-bottom2x">
+                        <input type="text" id="search-product" placeholder="Search the Hotels"
+                               title="Search the Products" list="hotels" style="margin-top:10px;"/>
+                        <datalist id="hotels">
+                            <option value="Hotel Keihan Asakusa Tokyo">
+                            <option value="Hotel Metropolitan Edmont Tokyo">
+                            <option value="Hotel New Otani Tokyo Garden Tower">
+                            <option value="Hilton Tokyo">
+                            <option value="The Westin Chosun Seoul">
+                            <option value="Korea Residence & Hotel Seoul">
+                            <option value="Vestin Residence Myeongdong">
+                            <option value="Zoayo Guest House Seoul">
+
+                        </datalist>
+                    </p>
+                    <label id="customform-label" for="sortlist">Sort</label>
+                    <p class="margin-bottom2x">
+                        <select id="sortlist" style="margin-top:10px;">
+                            <option value="star">Most Star</option>
+                            <option value="rating">Most Rating</option>
+                            <option value="lPrice">Lowest Price</option>
+                        </select>
+                    </p>
+                    <label id="customform-label">Destination</label>
+                    <p>
+                    <div>
+                        <input type="checkbox" value="Tokyo" id="usb" name="categories"
+                               style="margin-bottom:10px;margin-top:10px;"/>
                         <label for="usb">Tokyo</label>
-                     </div>
-                     <div>
-                        <input type="checkbox" value="Seoul" id="mouse" name="categories" style="margin-bottom:10px;" />
+                    </div>
+                    <div>
+                        <input type="checkbox" value="Seoul" id="mouse" name="categories" style="margin-bottom:10px;"/>
                         <label for="mouse">Seoul</label>
-                     </div>
-                  </p>
-               </form>
+                    </div>
+                    </p>
+                </form>
             </aside>
-         </div>
-      </div>
-   </div>
+        </div>
+    </div>
+</div>
 
-   <div class="cd-cart-container empty">
-      <a href="#0" class="cd-cart-trigger">
-         Cart
-         <ul class="count"> <!-- cart items count -->
+<div class="cd-cart-container empty">
+    <a href="#0" class="cd-cart-trigger">
+        Cart
+        <ul class="count"> <!-- cart items count -->
             <li>0</li>
             <li>0</li>
-         </ul> <!-- .count -->
-      </a>
-   
-      <div class="cd-cart">
-         <div class="wrapper">
+        </ul> <!-- .count -->
+    </a>
+
+    <div class="cd-cart">
+        <div class="wrapper">
             <header1>
-               <h2>Cart</h2>
-               <span class="undo">Item removed. <a href="#0">Undo</a></span>
+                <h2>Cart</h2>
+                <span class="undo">Item removed. <a href="#0">Undo</a></span>
             </header1>
-            
-            <div class="body">
-               <ul>
-                  <!-- products added to the cart will be inserted here using JavaScript -->
-               </ul>
-            </div>
-   
-            <footer1>
-               <a href="#0" id="checkoutBtn" class="checkout btn"><em>Checkout - $<span>0</span></em></a>
-            </footer1>
-         </div>
-      </div> <!-- .cd-cart -->
-   </div> <!-- cd-cart-container -->
 
-   <!-- FOOTER -->
-   <footer class="line">
-   </footer>
-   <script type="text/javascript" src="js/responsee.js"></script>
-   <script src="js/main.js"></script> <!-- Resource jQuery -->
-   <script type="text/javascript" src="js/all.js"></script>
-   <script type="text/javascript" src="js/shopping.js"></script>
+            <div class="body">
+                <ul>
+                    <!-- products added to the cart will be inserted here using JavaScript -->
+                </ul>
+            </div>
+
+            <footer1>
+                <a href="#0" id="checkoutBtn" class="checkout btn"><em>Checkout - $<span>0</span></em></a>
+            </footer1>
+        </div>
+    </div> <!-- .cd-cart -->
+</div> <!-- cd-cart-container -->
+
+<!-- FOOTER -->
+<footer class="line">
+</footer>
+<script type="text/javascript" src="js/responsee.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+<script type="text/javascript" src="js/all.js"></script>
+<script type="text/javascript" src="js/shopping.js"></script>
 </body>
 
 </html>
