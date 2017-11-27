@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>HappyTravel Ltd.</title>
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/responsee.css">
+    <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+    <link rel="stylesheet" href="css/cart_style.css"> <!-- Resource style -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext'
+          rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src='js/jquery.zoom.js'></script>
+    <script src="js/jquery.session.js"></script>
+
+
+    <style>
+
+        .content img {
+            width: 200px;
+            height: 200px;
+        }
+
+        .dialog-img {
+            width: 200px;
+            height: 200px;
+        }
+
+        .margin-bottom img {
+            width: 50px;
+            height: 50px;
+        }
+
+        .detailsTable {
+            display: none;
+        }
+
+        .map {
+            width: 200px;
+            height: 200px;
+            border: 0;
+            float: right;
+        }
+
+        .detailsTable {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .detailsTable th, td {
+            text-align: left;
+            padding: 8px;
+        }
+
+        .detailsTable tr:nth-child(even) {
+            background-color: #f2f2f2
+        }
+
+        .detailsTable th {
+            background-color: #2c97de;
+            color: white;
+        }
+
+        .airplane-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .airplane {
+            width: 40%;
+            height: 200px;
+            margin: 30px;
+            box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+
+        }
+
+
+        .container {
+            padding: 0.01em 16px
+        }
+
+        .light-grey {
+            color: #000 ;
+            background-color: #f1f1f1
+        }
+
+        .left {
+            float: left
+        }
+
+        .circle {
+            border-radius: 50%
+        }
+
+        .margin-right {
+            margin-right: 16px
+        }
+
+
+    </style>
+
+
+</head>
+
+<body class="size-1280">
+<!-- HEADER -->
+<header>
+
+</header>
+<!-- ASIDE NAV AND CONTENT -->
+<span id="active-page" style="display:none;">Hotels</span>
+<div class="line">
+    <div class="box margin-bottom" style="padding:0; padding-left: 1.25rem;">
+        <div class="margin">
+            <ul class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li>Hotels</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="line">
+    <div class="box">
+        <div class="margin2x">
+            <!-- CONTENT -->
+            <section class="s-12 m-8 l-9 right">
+
+                <div class="airplane-container">
+
+                    <!--airplane 1-->
+                    <div class="airplane">
+                        <div class="container light-grey">
+                            <h3>John Doe</h3>
+                        </div>
+                        <div class="container">
+                            <hr>
+                            <img src="logos/star.png" alt="Avatar" class="left circle margin-right" style="width:60px">
+                            <p>CEO at Mighty Schools. Marketing and Advertising. Seeking a new job and new opportunities.</p><br>
+                        </div>
+                        <button class="button rounded-btn submit-btn s-12 cd-add-to-cart product-name">+ Connect</button>
+                    </div>
+
+                    <!--airplane 2-->
+                    <div class="airplane" >
+                        <div class="container light-grey">
+                            <h3>John Doe</h3>
+                        </div>
+                        <div class="container">
+                            <hr>
+                            <img src="logos/star.png" alt="Avatar" class="left circle margin-right" style="width:60px">
+                            <p>CEO at Mighty Schools. Marketing and Advertising. Seeking a new job and new opportunities.</p><br>
+                        </div>
+                        <button class="button rounded-btn submit-btn s-12 cd-add-to-cart product-name">+ Connect</button>
+                    </div>
+
+
+                    <!--airplane 3-->
+                    <div class="airplane">
+                        <div class="container w3-light-grey">
+                            <h3>John Doe</h3>
+                        </div>
+                        <div class="container">
+                            <hr>
+                            <img src="logos/star.png" alt="Avatar" class="left circle margin-right" style="width:60px">
+                            <p>CEO at Mighty Schools. Marketing and Advertising. Seeking a new job and new opportunities.</p><br>
+                        </div>
+                        <button class="button rounded-btn submit-btn s-12 cd-add-to-cart product-name">+ Connect</button>
+                    </div>
+
+                    <!--airplane 4-->
+                    <div class="airplane" >
+                        <div class="container w3-light-grey">
+                            <h3>John Doe</h3>
+                        </div>
+                        <div class="container">
+                            <hr>
+                            <img src="logos/star.png" alt="Avatar" class="left circle margin-right" style="width:60px">
+                            <p>CEO at Mighty Schools. Marketing and Advertising. Seeking a new job and new opportunities.</p><br>
+                        </div>
+                        <button class="button rounded-btn submit-btn s-12 cd-add-to-cart product-name">+ Connect</button>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- ASIDE NAV -->
+            <aside class="s-12 m-4 l-3">
+                <form class="customform" onsubmit="return false;">
+                    <label id="customform-label" for="search-product">Search</label>
+                    <p class="margin-bottom2x">
+                        <input type="text" id="search-product" placeholder="Search the Hotels"
+                               title="Search the Products" list="hotels" style="margin-top:10px;"/>
+                        <datalist id="hotels">
+                            <option value="Hotel Keihan Asakusa Tokyo">
+                            <option value="Hotel Metropolitan Edmont Tokyo">
+                            <option value="Hotel New Otani Tokyo Garden Tower">
+                            <option value="Hilton Tokyo">
+                            <option value="The Westin Chosun Seoul">
+                            <option value="Korea Residence & Hotel Seoul">
+                            <option value="Vestin Residence Myeongdong">
+                            <option value="Zoayo Guest House Seoul">
+
+                        </datalist>
+                    </p>
+                    <label id="customform-label" for="sortlist">Sort</label>
+                    <p class="margin-bottom2x">
+                        <select id="sortlist" style="margin-top:10px;">
+                            <option value="star">Most Star</option>
+                            <option value="rating">Most Rating</option>
+                            <option value="lPrice">Lowest Price</option>
+                        </select>
+                    </p>
+                    <label id="customform-label">Destination</label>
+                    <p>
+                    <div>
+                        <input type="checkbox" value="Tokyo" id="usb" name="categories"
+                               style="margin-bottom:10px;margin-top:10px;"/>
+                        <label for="usb">Tokyo</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" value="Seoul" id="mouse" name="categories" style="margin-bottom:10px;"/>
+                        <label for="mouse">Seoul</label>
+                    </div>
+                    </p>
+                </form>
+            </aside>
+        </div>
+    </div>
+</div>
+
+<div class="cd-cart-container empty">
+    <a href="#0" class="cd-cart-trigger">
+        Cart
+        <ul class="count"> <!-- cart items count -->
+            <li>0</li>
+            <li>0</li>
+        </ul> <!-- .count -->
+    </a>
+
+    <div class="cd-cart">
+        <div class="wrapper">
+            <header1>
+                <h2>Cart</h2>
+                <span class="undo">Item removed. <a href="#0">Undo</a></span>
+            </header1>
+
+            <div class="body">
+                <ul>
+                    <!-- products added to the cart will be inserted here using JavaScript -->
+                </ul>
+            </div>
+
+            <footer1>
+                <a href="#0" id="checkoutBtn" class="checkout btn"><em>Checkout - $<span>0</span></em></a>
+            </footer1>
+        </div>
+    </div> <!-- .cd-cart -->
+</div> <!-- cd-cart-container -->
+
+<!-- FOOTER -->
+<footer class="line">
+</footer>
+<script type="text/javascript" src="js/responsee.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+<script type="text/javascript" src="js/all.js"></script>
+<script type="text/javascript" src="js/shopping.js"></script>
+</body>
+
+</html>
