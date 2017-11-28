@@ -28,7 +28,7 @@
 
         .dialog-img {
             width: 200px;
-            height: 200px;
+            height: 100%;
         }
 
         .margin-bottom img {
@@ -66,6 +66,11 @@
             color: white;
         }
 
+        .cd-add-to-cart.button{
+            width: 100%;
+        }
+
+
     </style>
 
 </head>
@@ -96,6 +101,10 @@
                 <div class="margin product-container">
                     <div id="inser-after"></div>
 
+                    <span class="Single" style="display:none;">300</span>
+                    <span class="Twins" style="display:none;">400</span>
+                    <span class="VIP" style="display:none;">500</span>
+
                     <!--Product1-->
                     <div class="full-product Tokyo">
                         <div class="product" id="1">
@@ -108,6 +117,7 @@
                                 <span class="product-rating" style="display:none;">4.7</span>
                                 <span class="product-star" style="display:none;">5</span>
                                 <span class="product-price" style="display:none;">2793</span>
+
                                 <div class="content">
                                     <img src="img/Tokyo_Hilton.png" style="float: left">
                                     <div class="margin-bottom">
@@ -134,15 +144,15 @@
                             <form class="customform s-12 margin-bottom2x" action="">
                                 <div>
                                     <button id="name1"
-                                            class="button rounded-btn submit-btn s-12 cd-add-to-cart product-name"
+                                            class="button rounded-btn submit-btn s-12 product-info product-name"
                                             value="1">Hilton Tokyo
                                     </button>
                                 </div>
                             </form>
                             <div class="product-dialog" id="product-dialog-hotel-1" title="Hilton Tokyo">
-                        <span class='l-5 dialog-img'>
-                     		<img src="img/Tokyo_Hilton.png">
-                     	</span>
+                                <div class='l-5 dialog-img'>
+                                    <img src="img/Tokyo_Hilton.png">
+                                </div>
                                 <div class="l-7">
                                     <table class="detailsTable">
                                         <tr>
@@ -150,28 +160,39 @@
                                             <th>Area (m2)</th>
                                             <th>Price</th>
                                             <th>Facilities</th>
+                                            <th>Add to Cart</th>
                                         </tr>
                                         <tr>
                                             <td>Single</td>
                                             <td>30</td>
-                                            <td>$300</td>
+                                            <td>300</td>
                                             <td>Desk, ironing facilities, air conditioning</td>
+                                            <td><button name="Single" class="button rounded-btn submit-btn cd-add-to-cart product-name"
+                                                        value="1">Single
+                                            </button></td>
                                         </tr>
+
                                         <tr>
                                             <td>Twins</td>
                                             <td>40</td>
-                                            <td>$400</td>
+                                            <td>400</td>
                                             <td>Desk, ironing facilities, air conditioning,Electric kettle, coffee maker
                                                 / teapot
                                             </td>
+                                            <td><button name="Twins" class="button rounded-btn submit-btn cd-add-to-cart product-name"
+                                                        value="1">Twins
+                                            </button></td>
                                         </tr>
                                         <tr>
                                             <td>VIP room</td>
                                             <td>50</td>
-                                            <td>$400</td>
+                                            <td>500</td>
                                             <td>Desk, ironing facilities, air conditioning,Electric kettle, coffee maker
                                                 / teapot, mini bar, small fridge
                                             </td>
+                                            <td><button name="VIP" class="button rounded-btn submit-btn cd-add-to-cart product-name"
+                                                        value="1">VIP
+                                            </button></td>
                                         </tr>
                                     </table>
                                 </div>
@@ -217,14 +238,14 @@
                             </a>
                             <form class="customform s-12 margin-bottom2x" action="">
                                 <div>
-                                    <button class="button rounded-btn submit-btn s-12 cd-add-to-cart product-name"
+                                    <button class="button rounded-btn submit-btn s-12 product-info product-name"
                                             value="2">Vestin Residence Myeongdong
                                     </button>
                                 </div>
                             </form>
                             <div class="product-dialog" id="product-dialog-hotel-2" title="Vestin Residence Myeongdong">
                                 <span class='l-5 dialog-img'>
-                                    <img src="img/Seoul_Vestin_Residence.png">
+                                    <img class="img_dialog" src="img/Seoul_Vestin_Residence.png">
                                 </span>
                                 <div class="l-7">
                                     <table class="detailsTable">
@@ -233,12 +254,16 @@
                                             <th>Area (m2)</th>
                                             <th>Price</th>
                                             <th>Facilities</th>
+                                            <th>Add to Cart</th>
                                         </tr>
                                         <tr>
                                             <td>Single</td>
                                             <td>30</td>
                                             <td>$192</td>
                                             <td>Desk, ironing facilities, air conditioning</td>
+                                            <td><button name="Single" class="button rounded-btn submit-btn cd-add-to-cart product-name"
+                                                        value="2">VIP
+                                            </button></td>
                                         </tr>
                                         <tr>
                                             <td>Twins</td>
@@ -247,6 +272,9 @@
                                             <td>Desk, ironing facilities, air conditioning,Electric kettle, coffee maker
                                                 / teapot
                                             </td>
+                                            <td><button name="Twins" class="button rounded-btn submit-btn cd-add-to-cart product-name"
+                                                        value="2">VIP
+                                            </button></td>
                                         </tr>
                                         <tr>
                                             <td>VIP room</td>
@@ -255,6 +283,9 @@
                                             <td>Desk, ironing facilities, air conditioning,Electric kettle, coffee maker
                                                 / teapot, mini bar, small fridge
                                             </td>
+                                            <td><button name="VIP" class="button rounded-btn submit-btn cd-add-to-cart product-name"
+                                                        value="2">VIP
+                                            </button></td>
                                         </tr>
                                     </table>
                                 </div>
@@ -298,7 +329,7 @@
                             </a>
                             <form class="customform s-12 margin-bottom2x" action="">
                                 <div>
-                                    <button class="button rounded-btn submit-btn s-12 cd-add-to-cart product-name"
+                                    <button class="button rounded-btn submit-btn s-12 product-info product-name"
                                             value="3">Zoayo Guest House Seoul
                                     </button>
                                 </div>
@@ -380,7 +411,7 @@
                             </a>
                             <form class="customform s-12 margin-bottom2x" action="">
                                 <div>
-                                    <button class="button rounded-btn submit-btn s-12 cd-add-to-cart product-name"
+                                    <button class="button rounded-btn submit-btn s-12 product-info product-name"
                                             value="4">Korea Residence & Hotel Seoul
                                     </button>
                                 </div>

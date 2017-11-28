@@ -73,7 +73,7 @@
 
         .airplane {
             width: 40%;
-            height: 200px;
+            height: 250px;
             margin: 30px;
             box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
 
@@ -81,7 +81,8 @@
 
 
         .container {
-            padding: 0.01em 16px
+            padding: 0.01em 16px;
+            display: block;
         }
 
         .light-grey {
@@ -90,15 +91,20 @@
         }
 
         .left {
-            float: left
+
         }
 
         .circle {
-            border-radius: 50%
+            border-radius: 50%;
+            float: right;
         }
 
         .margin-right {
             margin-right: 16px
+        }
+
+       .product-code{
+            display: none;
         }
 
 
@@ -133,16 +139,67 @@
                 <div class="airplane-container">
 
                     <!--airplane 1-->
-                    <div class="airplane">
+                    <div class="airplane" id="1">
                         <div class="container light-grey">
                             <h3>John Doe</h3>
                         </div>
                         <div class="container">
                             <hr>
-                            <img src="logos/star.png" alt="Avatar" class="left circle margin-right" style="width:60px">
-                            <p>CEO at Mighty Schools. Marketing and Advertising. Seeking a new job and new opportunities.</p><br>
+                           <div>
+                               <img src="logos/cat_logo.jpg" alt="Avatar" class="circle margin-right" style="width:60px">
+                           </div>
+                            <div>
+                                <p>Hong Kong To Tokyo</p><br>
+                                <p>Boarding Time: 1500 pm</p><br>
+                                <p>Landing Time: 2100 pm</p>
+                            </div>
                         </div>
-                        <button class="button rounded-btn submit-btn s-12 cd-add-to-cart product-name">+ Connect</button>
+                        <button class="button rounded-btn submit-btn s-12 product-info product-name">
+                            <span class="product-code">1</span>
+                            Click to view detail</button>
+                        <div class="product-dialog" id="product-dialog-1" title="Vestin Residence Myeongdong">
+                                <span class='l-5 dialog-img'>
+                                    <img class="img_dialog" src="img/Seoul_Vestin_Residence.png">
+                                </span>
+                            <div class="l-7">
+                                <table class="detailsTable">
+                                    <tr>
+                                        <th>Seat Type</th>
+                                        <th>Price</th>
+                                        <th>Facilities</th>
+                                        <th>Add to Cart</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Economy</td>
+                                        <td>$192</td>
+                                        <td>Desk, ironing facilities, air conditioning</td>
+                                        <td><button name="Economy" class="button rounded-btn submit-btn cd-add-to-cart product-name"
+                                                    value="2">VIP
+                                        </button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Business</td>
+                                        <td>$400</td>
+                                        <td>Desk, ironing facilities, air conditioning,Electric kettle, coffee maker
+                                            / teapot
+                                        </td>
+                                        <td><button name="Business" class="button rounded-btn submit-btn cd-add-to-cart product-name"
+                                                    value="2">VIP
+                                        </button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>First class</td>
+                                        <td>$400</td>
+                                        <td>Desk, ironing facilities, air conditioning,Electric kettle, coffee maker
+                                            / teapot, mini bar, small fridge
+                                        </td>
+                                        <td><button name="FirstClass" class="button rounded-btn submit-btn cd-add-to-cart product-name"
+                                                    value="2">VIP
+                                        </button></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
                     </div>
 
                     <!--airplane 2-->
@@ -155,7 +212,7 @@
                             <img src="logos/star.png" alt="Avatar" class="left circle margin-right" style="width:60px">
                             <p>CEO at Mighty Schools. Marketing and Advertising. Seeking a new job and new opportunities.</p><br>
                         </div>
-                        <button class="button rounded-btn submit-btn s-12 cd-add-to-cart product-name">+ Connect</button>
+                        <button class="button rounded-btn submit-btn s-12 product-info  product-name">Click to view detail</button>
                     </div>
 
 
@@ -169,7 +226,7 @@
                             <img src="logos/star.png" alt="Avatar" class="left circle margin-right" style="width:60px">
                             <p>CEO at Mighty Schools. Marketing and Advertising. Seeking a new job and new opportunities.</p><br>
                         </div>
-                        <button class="button rounded-btn submit-btn s-12 cd-add-to-cart product-name">+ Connect</button>
+                        <button class="button rounded-btn submit-btn s-12 product-info product-name">Click to view detail</button>
                     </div>
 
                     <!--airplane 4-->
@@ -182,7 +239,7 @@
                             <img src="logos/star.png" alt="Avatar" class="left circle margin-right" style="width:60px">
                             <p>CEO at Mighty Schools. Marketing and Advertising. Seeking a new job and new opportunities.</p><br>
                         </div>
-                        <button class="button rounded-btn submit-btn s-12 cd-add-to-cart product-name">+ Connect</button>
+                        <button class="button rounded-btn submit-btn s-12 product-info product-name">Click to view detail</button>
                     </div>
 
                 </div>
@@ -270,7 +327,7 @@
 <script type="text/javascript" src="js/responsee.js"></script>
 <script src="js/main.js"></script> <!-- Resource jQuery -->
 <script type="text/javascript" src="js/all.js"></script>
-<script type="text/javascript" src="js/shopping.js"></script>
+<script type="text/javascript" src="js/airplane.js"></script>
 </body>
 
 </html>

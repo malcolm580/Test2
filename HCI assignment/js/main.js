@@ -19,8 +19,9 @@ jQuery(document).ready(function($){
 		addToCartBtn.on('click', function(event){
 			event.preventDefault();
 			id = $(this)[0].value;
+			type = $(this).attr("name");
 			console.log("addToCartBtn : "+$(this)[0].value);
-			addToCart($(this), id);
+			addToCart($(this), id , type);
 		});
 
 		//open/close cart
@@ -82,7 +83,7 @@ jQuery(document).ready(function($){
 		}
 	}
 
-	function addToCart(trigger, id) {
+	function addToCart(trigger, id , type) {
 		var cartIsEmpty = cartWrapper.hasClass('empty');
 		//update cart product list
 		console.log("addToCart : "+$("#" + id + " a img").attr('src'));
@@ -90,7 +91,7 @@ jQuery(document).ready(function($){
 		console.log("addToCart : "+$("#" + id + " a h4 span").text());
 		src = $("#" + id + " a .content img").attr('src');
 		name = $("#" + id + " a h4 strong").text();
-		price = $("#" + id + " a .product-price").text();
+		price = $("."+type).text();
 		addProduct(id, name, src, price);
 		//update number of items 
 		updateCartCount(cartIsEmpty);
