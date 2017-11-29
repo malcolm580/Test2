@@ -1,9 +1,9 @@
 {
-	"username": ["tom","mary","john"],
-	"password": ["tom","mary","john"],
+	"username": ["edward","mary","john"],
+	"password": ["1234","mary","john"],
 	"telephone": ["96385274","98765432","32165498"],
 	"email": ["tom@yahoo.com.hk","mary@yahoo.com.hk","john@yahoo.com.hk"],
 	"studentID": ["150123123","150321321","150999999"],
-	"bonusPoints": ["0","0","500"]
+	"bonusPoints": ["500","0","500"]
 }
 

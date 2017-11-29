@@ -73,12 +73,11 @@
 
         .airplane {
             width: 40%;
-            height: 250px;
+            height: 400px;
             margin: 30px;
             box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
 
         }
-
 
         .container {
             padding: 0.01em 16px;
@@ -86,7 +85,7 @@
         }
 
         .light-grey {
-            color: #000 ;
+            color: #000;
             background-color: #f1f1f1
         }
 
@@ -103,10 +102,21 @@
             margin-right: 16px
         }
 
-       .product-code{
+        .product-code {
             display: none;
         }
 
+        .container p {
+            font-size: 20px;
+        }
+
+        .airplane .none{
+            display: none ;
+        }
+
+        .cd-add-to-cart{
+            width: 100%;
+        }
 
     </style>
 
@@ -119,13 +129,13 @@
 
 </header>
 <!-- ASIDE NAV AND CONTENT -->
-<span id="active-page" style="display:none;">Hotels</span>
+<span id="active-page" style="display:none;">Airline Tickets</span>
 <div class="line">
     <div class="box margin-bottom" style="padding:0; padding-left: 1.25rem;">
         <div class="margin">
             <ul class="breadcrumb">
                 <li><a href="index.html">Home</a></li>
-                <li>Hotels</li>
+                <li>Airline Tickets</li>
             </ul>
         </div>
     </div>
@@ -138,64 +148,75 @@
 
                 <div class="airplane-container">
 
+                    <div id="inser-after"></div>
+
                     <!--airplane 1-->
-                    <div class="airplane" id="1">
+                    <div class="airplane Tokyo" id="1">
+                        <span class="none Economy">200</span>
+                        <span class="none Business">300</span>
+                        <span class="none FirstClass">400</span>
+                        <span class="none Date">1011</span>
+                        <span class="none Rating">4</span>
                         <div class="container light-grey">
-                            <h3>John Doe</h3>
+                            <h3 class="destination">Hong Kong To Tokyo</h3>
                         </div>
-                        <div class="container">
+                        <div class="container img">
                             <hr>
-                           <div>
-                               <img src="logos/cat_logo.jpg" alt="Avatar" class="circle margin-right" style="width:60px">
-                           </div>
-                            <div>
-                                <p>Hong Kong To Tokyo</p><br>
-                                <p>Boarding Time: 1500 pm</p><br>
-                                <p>Landing Time: 2100 pm</p>
+                            <div class="logo">
+                                <img src="logos/cat_logo.jpg" alt="Avatar" class="circle margin-right"
+                                     style="width:60px">
                             </div>
+                            <div class="info">
+                                <p><span class="Company">Cathay Pacific</span></p><br>
+                                <p>2017-10-11</p><br>
+                                <p>Boarding Time: 1700 pm</p><br>
+                                <p>Landing Time: 2100 pm</p><br>
+                                <p>User Rating: 4 star </p>
+                            </div>
+                            <button value="1" class="button rounded-btn submit-btn s-12 product-info product-name">
+                                Click to view detail
+                            </button>
                         </div>
-                        <button class="button rounded-btn submit-btn s-12 product-info product-name">
-                            <span class="product-code">1</span>
-                            Click to view detail</button>
                         <div class="product-dialog" id="product-dialog-1" title="Vestin Residence Myeongdong">
                                 <span class='l-5 dialog-img'>
-                                    <img class="img_dialog" src="img/Seoul_Vestin_Residence.png">
+                                    <img class="img_dialog" src="img/cathay-pacific.jpg">
                                 </span>
                             <div class="l-7">
                                 <table class="detailsTable">
                                     <tr>
                                         <th>Seat Type</th>
                                         <th>Price</th>
-                                        <th>Facilities</th>
                                         <th>Add to Cart</th>
                                     </tr>
                                     <tr>
                                         <td>Economy</td>
-                                        <td>$192</td>
-                                        <td>Desk, ironing facilities, air conditioning</td>
-                                        <td><button name="Economy" class="button rounded-btn submit-btn cd-add-to-cart product-name"
-                                                    value="2">VIP
-                                        </button></td>
+                                        <td>192</td>
+                                        <td>
+                                            <button name="Economy"
+                                                    class="button rounded-btn submit-btn cd-add-to-cart product-name"
+                                                    value="1">Economy
+                                            </button>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>Business</td>
-                                        <td>$400</td>
-                                        <td>Desk, ironing facilities, air conditioning,Electric kettle, coffee maker
-                                            / teapot
+                                        <td>400</td>
+                                        <td>
+                                            <button name="Business"
+                                                    class="button rounded-btn submit-btn cd-add-to-cart product-name"
+                                                    value="1">Business
+                                            </button>
                                         </td>
-                                        <td><button name="Business" class="button rounded-btn submit-btn cd-add-to-cart product-name"
-                                                    value="2">VIP
-                                        </button></td>
                                     </tr>
                                     <tr>
                                         <td>First class</td>
-                                        <td>$400</td>
-                                        <td>Desk, ironing facilities, air conditioning,Electric kettle, coffee maker
-                                            / teapot, mini bar, small fridge
+                                        <td>500</td>
+                                        <td>
+                                            <button name="FirstClass"
+                                                    class="button rounded-btn submit-btn cd-add-to-cart product-name"
+                                                    value="1">VIP
+                                            </button>
                                         </td>
-                                        <td><button name="FirstClass" class="button rounded-btn submit-btn cd-add-to-cart product-name"
-                                                    value="2">VIP
-                                        </button></td>
                                     </tr>
                                 </table>
                             </div>
@@ -203,43 +224,372 @@
                     </div>
 
                     <!--airplane 2-->
-                    <div class="airplane" >
+                    <div class="airplane Seoul" id="2">
+                        <span class="none Economy">200</span>
+                        <span class="none Business">300</span>
+                        <span class="none FirstClass">400</span>
+                        <span class="none Date">1211</span>
+                        <span class="none Rating">4</span>
                         <div class="container light-grey">
-                            <h3>John Doe</h3>
+                            <h3 class="destination">Hong Kong To Seoul</h3>
                         </div>
-                        <div class="container">
+                        <div class="container img">
                             <hr>
-                            <img src="logos/star.png" alt="Avatar" class="left circle margin-right" style="width:60px">
-                            <p>CEO at Mighty Schools. Marketing and Advertising. Seeking a new job and new opportunities.</p><br>
+                            <div class="logo">
+                                <img src="logos/cat_logo.jpg" alt="Avatar" class="circle margin-right"
+                                     style="width:60px">
+                            </div>
+                            <div class="info">
+                                <p><span class="Company">Cathay Pacific</span></p><br>
+                                <p>2017-12-11</p><br>
+                                <p>Boarding Time: 1500 pm</p><br>
+                                <p>Landing Time: 2100 pm</p><br>
+                                <p>User Rating: 4 star </p>
+                            </div>
+                            <button value="2" class="button rounded-btn submit-btn s-12 product-info product-name">
+                                Click to view detail
+                            </button>
                         </div>
-                        <button class="button rounded-btn submit-btn s-12 product-info  product-name">Click to view detail</button>
+                        <div class="product-dialog" id="product-dialog-2" title="Vestin Residence Myeongdong">
+                                <span class='l-5 dialog-img'>
+                                    <img class="img_dialog" src="img/cathay-pacific.jpg">
+                                </span>
+                            <div class="l-7">
+                                <table class="detailsTable">
+                                    <tr>
+                                        <th>Seat Type</th>
+                                        <th>Price</th>
+                                        <th>Add to Cart</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Economy</td>
+                                        <td>192</td>
+                                        <td>
+                                            <button name="Economy"
+                                                    class="button rounded-btn submit-btn cd-add-to-cart product-name"
+                                                    value="2">Economy
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Business</td>
+                                        <td>400</td>
+                                        <td>
+                                            <button name="Business"
+                                                    class="button rounded-btn submit-btn cd-add-to-cart product-name"
+                                                    value="2">Business
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>First class</td>
+                                        <td>500</td>
+                                        <td>
+                                            <button name="FirstClass"
+                                                    class="button rounded-btn submit-btn cd-add-to-cart product-name"
+                                                    value="2">VIP
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
                     </div>
 
-
                     <!--airplane 3-->
-                    <div class="airplane">
-                        <div class="container w3-light-grey">
-                            <h3>John Doe</h3>
+                    <div class="airplane Tokyo" id="3">
+                        <span class="none Economy">200</span>
+                        <span class="none Business">300</span>
+                        <span class="none FirstClass">400</span>
+                        <span class="none Date">1131</span>
+                        <span class="none Rating">5</span>
+                        <div class="container light-grey">
+                            <h3 class="destination">Hong Kong To Tokyo</h3>
                         </div>
-                        <div class="container">
+                        <div class="container img">
                             <hr>
-                            <img src="logos/star.png" alt="Avatar" class="left circle margin-right" style="width:60px">
-                            <p>CEO at Mighty Schools. Marketing and Advertising. Seeking a new job and new opportunities.</p><br>
+                            <div class="logo">
+                                <img src="logos/korea_air.jpg" alt="Avatar" class="circle margin-right"
+                                     style="width:60px">
+                            </div>
+                            <div class="info">
+                                <p><span class="Company">Korea Air</span></p><br>
+                                <p>2017-11-31</p><br>
+                                <p>Boarding Time: 1400 pm</p><br>
+                                <p>Landing Time: 2100 pm</p><br>
+                                <p>User rating : 5 stars</p>
+                            </div>
                         </div>
-                        <button class="button rounded-btn submit-btn s-12 product-info product-name">Click to view detail</button>
+                        <button value="3" class="button rounded-btn submit-btn s-12 product-info product-name">
+                            Click to view detail
+                        </button>
+                        <div class="product-dialog" id="product-dialog-3" title="Vestin Residence Myeongdong">
+                                <span class='l-5 dialog-img'>
+                                    <img class="img_dialog" src="img/korean-airplane.jpg">
+                                </span>
+                            <div class="l-7">
+                                <table class="detailsTable">
+                                    <tr>
+                                        <th>Seat Type</th>
+                                        <th>Price</th>
+                                        <th>Add to Cart</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Economy</td>
+                                        <td>192</td>
+                                        <td>
+                                            <button name="Economy"
+                                                    class="button rounded-btn submit-btn cd-add-to-cart product-name"
+                                                    value="3">Economy
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Business</td>
+                                        <td>400</td>
+                                        <td>
+                                            <button name="Business"
+                                                    class="button rounded-btn submit-btn cd-add-to-cart product-name"
+                                                    value="3">Business
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>First class</td>
+                                        <td>500</td>
+                                        <td>
+                                            <button name="FirstClass"
+                                                    class="button rounded-btn submit-btn cd-add-to-cart product-name"
+                                                    value="3">VIP
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
                     </div>
 
                     <!--airplane 4-->
-                    <div class="airplane" >
-                        <div class="container w3-light-grey">
-                            <h3>John Doe</h3>
+                    <div class="airplane Seoul" id="4">
+                        <span class="none Economy">200</span>
+                        <span class="none Business">300</span>
+                        <span class="none FirstClass">400</span>
+                        <span class="none Date">1121</span>
+                        <span class="none Rating">5</span>
+                        <div class="container light-grey">
+                            <h3 class="destination">Hong Kong To Seoul</h3>
                         </div>
-                        <div class="container">
+                        <div class="container img">
                             <hr>
-                            <img src="logos/star.png" alt="Avatar" class="left circle margin-right" style="width:60px">
-                            <p>CEO at Mighty Schools. Marketing and Advertising. Seeking a new job and new opportunities.</p><br>
+                            <div class="logo">
+                                <img src="logos/korea_air.jpg" alt="Avatar" class="circle margin-right"
+                                     style="width:60px">
+                            </div>
+                            <div class="info">
+                                <p><span class="Company">Korea Air</span></p><br>
+                                <p>2017-11-21</p><br>
+                                <p>Boarding Time: 1400 pm</p><br>
+                                <p>Landing Time: 1900 pm</p><br>
+                                <p>User Rating : 5 stars</p>
+                            </div>
+                            <button value="4" class="button rounded-btn submit-btn s-12 product-info product-name">
+                                Click to view detail
+                            </button>
                         </div>
-                        <button class="button rounded-btn submit-btn s-12 product-info product-name">Click to view detail</button>
+
+                        <div class="product-dialog" id="product-dialog-4" title="Vestin Residence Myeongdong">
+                                <span class='l-5 dialog-img'>
+                                    <img class="img_dialog" src="img/korean-airplane.jpg">
+                                </span>
+                            <div class="l-7">
+                                <table class="detailsTable">
+                                    <tr>
+                                        <th>Seat Type</th>
+                                        <th>Price</th>
+                                        <th>Add to Cart</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Economy</td>
+                                        <td>192</td>
+                                        <td>
+                                            <button name="Economy"
+                                                    class="button rounded-btn submit-btn cd-add-to-cart product-name"
+                                                    value="4">Economy
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Business</td>
+                                        <td>400</td>
+                                        <td>
+                                            <button name="Business"
+                                                    class="button rounded-btn submit-btn cd-add-to-cart product-name"
+                                                    value="4">Business
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>First class</td>
+                                        <td>500</td>
+                                        <td>
+                                            <button name="FirstClass"
+                                                    class="button rounded-btn submit-btn cd-add-to-cart product-name"
+                                                    value="4">VIP
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--airplane 5-->
+                    <div class="airplane Seoul" id="5">
+                        <span class="none Economy">200</span>
+                        <span class="none Business">300</span>
+                        <span class="none FirstClass">400</span>
+                        <span class="none Date">1027</span>
+                        <span class="none Rating">3</span>
+                        <div class="container light-grey">
+                            <h3 class="destination">Hong Kong To Seoul</h3>
+                        </div>
+                        <div class="container img">
+                            <hr>
+                            <div class="logo">
+                                <img src="logos/amer-air.jpg" alt="Avatar" class="circle margin-right"
+                                     style="width:60px">
+                            </div>
+                            <div class="info">
+                                <p><span class="Company">American Airline</span></p><br>
+                                <p>2017-10-27</p><br>
+                                <p>Boarding Time: 1800 pm</p><br>
+                                <p>Landing Time: 2300 pm</p><br>
+                                <p>User rating : 3 stars</p>
+                            </div>
+                            <button value="5" class="button rounded-btn submit-btn s-12 product-info product-name">
+                                Click to view detail
+                            </button>
+                        </div>
+
+                        <div class="product-dialog" id="product-dialog-5" title="Vestin Residence Myeongdong">
+                                <span class='l-5 dialog-img'>
+                                    <img class="img_dialog" src="img/amer-airplane.jpg">
+                                </span>
+                            <div class="l-7">
+                                <table class="detailsTable">
+                                    <tr>
+                                        <th>Seat Type</th>
+                                        <th>Price</th>
+                                        <th>Add to Cart</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Economy</td>
+                                        <td>192</td>
+                                        <td>
+                                            <button name="Economy"
+                                                    class="button rounded-btn submit-btn cd-add-to-cart product-name"
+                                                    value="5">Economy
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Business</td>
+                                        <td>400</td>
+                                        <td>
+                                            <button name="Business"
+                                                    class="button rounded-btn submit-btn cd-add-to-cart product-name"
+                                                    value="5">Business
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>First class</td>
+                                        <td>500</td>
+                                        <td>
+                                            <button name="FirstClass"
+                                                    class="button rounded-btn submit-btn cd-add-to-cart product-name"
+                                                    value="5">VIP
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--airplane 6-->
+                    <div class="airplane Seoul" id="6">
+                        <span class="none Economy">200</span>
+                        <span class="none Business">300</span>
+                        <span class="none FirstClass">400</span>
+                        <span class="none Date">1025</span>
+                        <span class="none Rating">3</span>
+                        <div class="container light-grey">
+                            <h3 class="destination">Hong Kong To Seoul</h3>
+                        </div>
+                        <div class="container img">
+                            <hr>
+                            <div class="logo">
+                                <img src="logos/amer-air.jpg" alt="Avatar" class="circle margin-right"
+                                     style="width:60px">
+                            </div>
+                            <div class="info">
+                                <p><span class="Company">American Airline</span></p><br>
+                                <p>2017-10-25</p><br>
+                                <p>Boarding Time: 1800 pm</p><br>
+                                <p>Landing Time: 2300 pm</p><br>
+                                <p>User rating : 3 stars</p>
+                                <button value="6" class="button rounded-btn submit-btn s-12 product-info product-name">
+                                    Click to view detail
+                                </button>
+                            </div>
+
+                        </div>
+
+                        <div class="product-dialog" id="product-dialog-6" title="Vestin Residence Myeongdong">
+                                <span class='l-5 dialog-img'>
+                                    <img class="img_dialog" src="img/amer-airplane.jpg">
+                                </span>
+                            <div class="l-7">
+                                <table class="detailsTable">
+                                    <tr>
+                                        <th>Seat Type</th>
+                                        <th>Price</th>
+                                        <th>Add to Cart</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Economy</td>
+                                        <td>192</td>
+                                        <td>
+                                            <button name="Economy"
+                                                    class="button rounded-btn submit-btn cd-add-to-cart product-name"
+                                                    value="6">Economy
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Business</td>
+                                        <td>400</td>
+                                        <td>
+                                            <button name="Business"
+                                                    class="button rounded-btn submit-btn cd-add-to-cart product-name"
+                                                    value="6">Business
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>First class</td>
+                                        <td>500</td>
+                                        <td>
+                                            <button name="FirstClass"
+                                                    class="button rounded-btn submit-btn cd-add-to-cart product-name"
+                                                    value="6">VIP
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
@@ -252,38 +602,29 @@
                 <form class="customform" onsubmit="return false;">
                     <label id="customform-label" for="search-product">Search</label>
                     <p class="margin-bottom2x">
-                        <input type="text" id="search-product" placeholder="Search the Hotels"
-                               title="Search the Products" list="hotels" style="margin-top:10px;"/>
-                        <datalist id="hotels">
-                            <option value="Hotel Keihan Asakusa Tokyo">
-                            <option value="Hotel Metropolitan Edmont Tokyo">
-                            <option value="Hotel New Otani Tokyo Garden Tower">
-                            <option value="Hilton Tokyo">
-                            <option value="The Westin Chosun Seoul">
-                            <option value="Korea Residence & Hotel Seoul">
-                            <option value="Vestin Residence Myeongdong">
-                            <option value="Zoayo Guest House Seoul">
-
+                        <input type="text" id="search-product" placeholder="Search the Air ticket"
+                               title="Search the Products" list="AirTicker" style="margin-top:10px;"/>
+                        <datalist id="AirTicker">
+                            <option value="Cathay Pacific">
                         </datalist>
                     </p>
                     <label id="customform-label" for="sortlist">Sort</label>
                     <p class="margin-bottom2x">
                         <select id="sortlist" style="margin-top:10px;">
-                            <option value="star">Most Star</option>
-                            <option value="rating">Most Rating</option>
-                            <option value="lPrice">Lowest Price</option>
+                            <option value="Rating">Most Rating</option>
+                            <option value="Date">Upcoming Date</option>
                         </select>
                     </p>
                     <label id="customform-label">Destination</label>
                     <p>
                     <div>
-                        <input type="checkbox" value="Tokyo" id="usb" name="categories"
+                        <input type="checkbox" value="Tokyo" id="Tokyo" name="categories"
                                style="margin-bottom:10px;margin-top:10px;"/>
-                        <label for="usb">Tokyo</label>
+                        <label for="Tokyo">Tokyo</label>
                     </div>
                     <div>
-                        <input type="checkbox" value="Seoul" id="mouse" name="categories" style="margin-bottom:10px;"/>
-                        <label for="mouse">Seoul</label>
+                        <input type="checkbox" value="Seoul" id="Seoul" name="categories" style="margin-bottom:10px;"/>
+                        <label for="Seoul">Seoul</label>
                     </div>
                     </p>
                 </form>
@@ -325,7 +666,7 @@
 <footer class="line">
 </footer>
 <script type="text/javascript" src="js/responsee.js"></script>
-<script src="js/main.js"></script> <!-- Resource jQuery -->
+<script src="js/main2.js"></script> <!-- Resource jQuery -->
 <script type="text/javascript" src="js/all.js"></script>
 <script type="text/javascript" src="js/airplane.js"></script>
 </body>

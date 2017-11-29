@@ -19,9 +19,9 @@ $(document).ready(function() {
     };
 
     $("#search-product").keyup(function() {
-        $('.product-container').hide();
-        $(".full-product").hide().filter(":casecontains('" + ($(this).val()) + "')").show();
-        $('.product-container').stop(true, true).effect('slide', {
+        $('.airplane-container').hide();
+        $(".airplane").hide().filter(":casecontains('" + ($(this).val()) + "')").show();
+        $('.airplane-container').stop(true, true).effect('slide', {
             direction: "down"
         }, 500);
     });
@@ -29,64 +29,77 @@ $(document).ready(function() {
 
     //sort
     $('#sortlist').on('change', function() {
-        $('.product-container').hide();
+        $('.airplane-container').hide();
 
-        if ($(this).val() == "star") {
-            var star_array = [];
-            $('.full-product').each(function() {
-                star_array.push($(this).find('.product-star').text());
+        if ($(this).val() == "Date") {
+            var date_array = [];
+            $('.airplane').each(function() {
+                date_array.push($(this).find('.Date').text());
             });
 
-            star_array.sort();
-
-            $.each(star_array, function(index) {
-                var starNumber = star_array[index];
-                $.each($('.full-product'), function() {
-                    if ($(this).find('.product-star').text() == starNumber) {
-                        $(this).insertAfter($('#inser-after'));
-                    }
-                });
-            });
-
-        }
-        else if ($(this).val() == "rating") {
-            var rating = [];
-            $('.full-product').each(function() {
-                rating.push($(this).find('.product-rating').text());
-            });
-
-            rating.sort();
-
-            $.each(rating, function(index) {
-                var currentRating = rating[index];
-                $.each($('.full-product'), function() {
-                    if ($(this).find('.product-rating').text() == currentRating) {
-                        $(this).insertAfter($('#inser-after'));
-                    }
-                });
-            });
-        }
-        else if ($(this).val() == "lPrice") {
-            var price_array = [];
-            $('.full-product').each(function() {
-                price_array.push($(this).find('.product-price').text());
-            });
-
-            price_array.sort(function(a,b){
+            date_array.sort(function(a,b){
                 return a - b
             });
 
-            $.each(price_array, function(index) {
-                var currentPrice = price_array[index];
-                $.each($('.full-product'), function() {
-                    if ($(this).find('.product-price').text() == currentPrice) {
+            date_array.reverse();
+
+
+            $.each(date_array, function(index) {
+
+                var starNumber = date_array[index];
+                $.each($('.airplane'), function() {
+                    if ($(this).find('.Date').text() == starNumber) {
                         $(this).insertBefore($('#inser-after'));
                     }
                 });
             });
-        }
 
-        $('.product-container').stop(true, true).effect('slide', {
+        }
+        else if ($(this).val() == "Rating") {
+            var rating_array = [];
+            $('.airplane').each(function() {
+                rating_array.push($(this).find('.Rating').text());
+            });
+
+            rating_array.sort(function(a,b){
+                return a - b
+            });
+
+            rating_array.reverse();
+
+
+            $.each(rating_array, function(index) {
+
+                var rateNumber = rating_array[index];
+                $.each($('.airplane'), function() {
+                    if ($(this).find('.Rating').text() == rateNumber) {
+                        $(this).insertBefore($('#inser-after'));
+                    }
+                });
+            });
+
+        }
+        // else if ($(this).val() == "lPrice") {
+        //     var price_array = [];
+        //     $('.full-product').each(function() {
+        //         price_array.push($(this).find('.product-price').text());
+        //     });
+        //
+        //     price_array.sort(function(a,b){
+        //         return a - b
+        //     });
+        //
+        //     $.each(price_array, function(index) {
+        //         var currentPrice = price_array[index];
+        //         $.each($('.full-product'), function() {
+        //             if ($(this).find('.product-price').text() == currentPrice) {
+        //                 $(this).insertBefore($('#inser-after'));
+        //             }
+        //         });
+        //     });
+        // }
+
+        $('.airplane-container').stop(true, true).effect('slide', {
             direction: "down"
         }, 500);
 
@@ -95,13 +108,13 @@ $(document).ready(function() {
 
     //categories
     $('input:checkbox[name="categories"]').on('change', function() {
-        $('.product-container').hide();
-        $(".full-product").hide();
+        $('.airplane-container').hide();
+        $('.airplane').hide();
         $('input:checkbox[name="categories"]:checked').each(function() {
             var t = this.value;
             $("." + t).show();
         });
-        $('.product-container').stop(true, true).effect('slide', {
+        $('.airplane-container').stop(true, true).effect('slide', {
             direction: "down"
         }, 500);
     });
@@ -137,7 +150,7 @@ $(document).ready(function() {
     });
 
     $(".product-info").on("click", function() {
-        var code = $(this).find('.product-code').text();
+        var code = $(this).val();
         $("#product-dialog-" + code).dialog("open");
         $(".detailsTable").css("display","inline")
     });
@@ -153,10 +166,10 @@ $(document).ready(function() {
 
     //mouse enter product
     var original_text = "";
-    $(".product").hover(function() {
+    $(".airplane").hover(function() {
         original_text = $(this).find('button').text();
         $(this).find('button').stop(true, true).css('background', "#b4bf04 none repeat scroll 0 0");
-        $(this).find('button').stop(true, true).effect('slide', 500).text("Click To View Details");
+       // $(this).find('button').stop(true, true).effect('slide', 300).text("Click To View Details");
     }, function() {
         $(this).find('button').stop(true, true).text(original_text);
         $(this).find('button').stop(true, true).css('background', "#444 none repeat scroll 0 0");
