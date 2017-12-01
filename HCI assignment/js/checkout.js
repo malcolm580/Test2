@@ -47,7 +47,7 @@ $(document).ready(function() {
     })
     
     $('#cont2').on("click", function(){
-        alert('Credit card format valid!')
+        //alert('Credit card format valid!')
         $('#step3').show();
     })
     
