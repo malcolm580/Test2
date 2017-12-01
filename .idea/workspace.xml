@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c4b83d9-32d2-451f-812b-01d3e03709e3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HCI assignment/img/thumb-down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HCI assignment/img/thumb-up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HCI assignment/img/user_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HCI assignment/comment.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HCI assignment/css/fontAsn.css" />
+    <list default="true" id="6c4b83d9-32d2-451f-812b-01d3e03709e3" name="Default" comment="Comment">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HCI assignment/js/shopping.js" afterPath="$PROJECT_DIR$/HCI assignment/js/shopping.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HCI assignment/shopping.html" afterPath="$PROJECT_DIR$/HCI assignment/shopping.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,14 +19,22 @@
       <file leaf-file-name="shopping.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HCI assignment/shopping.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2468">
-              <caret line="275" column="71" lean-forward="false" selection-start-line="275" selection-start-column="71" selection-end-line="275" selection-end-column="71" />
+            <state relative-caret-position="-5">
+              <caret line="157" column="38" lean-forward="false" selection-start-line="157" selection-start-column="38" selection-end-line="157" selection-end-column="38" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#2;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#3;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#4;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#5;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shopping.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HCI assignment/js/shopping.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="133" column="52" lean-forward="false" selection-start-line="133" selection-start-column="52" selection-end-line="133" selection-end-column="52" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -59,16 +64,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="checkout_gift.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HCI assignment/js/checkout_gift.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1305">
-              <caret line="87" column="30" lean-forward="false" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -114,7 +109,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="comment.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="comment.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HCI assignment/comment.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1585">
@@ -167,7 +162,6 @@
       <find>product-dialog</find>
       <find>dialog-img</find>
       <find>name1</find>
-      <find>name</find>
       <find>product-code</find>
       <find>right</find>
       <find>categories</find>
@@ -181,7 +175,10 @@
       <find>panel</find>
       <find>.pull-right</find>
       <find>post</find>
+      <find>Single</find>
       <find>button</find>
+      <find>name</find>
+      <find>Cancel</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -195,7 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HCI assignment/js/shopping.js" />
         <option value="$PROJECT_DIR$/HCI assignment/js/main.js" />
         <option value="$PROJECT_DIR$/HCI assignment/index.html" />
         <option value="$PROJECT_DIR$/HCI assignment/header.html" />
@@ -203,9 +199,10 @@
         <option value="$PROJECT_DIR$/HCI assignment/accounts.json" />
         <option value="$PROJECT_DIR$/HCI assignment/js/airplane.js" />
         <option value="$PROJECT_DIR$/HCI assignment/airplane.html" />
-        <option value="$PROJECT_DIR$/HCI assignment/shopping.html" />
         <option value="$PROJECT_DIR$/HCI assignment/css/fontAsn.css" />
         <option value="$PROJECT_DIR$/HCI assignment/comment.html" />
+        <option value="$PROJECT_DIR$/HCI assignment/shopping.html" />
+        <option value="$PROJECT_DIR$/HCI assignment/js/shopping.js" />
       </list>
     </option>
   </component>
@@ -274,6 +271,12 @@
               <item name="Test2" type="462c0819:PsiDirectoryNode" />
               <item name="HCI assignment" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test2" type="462c0819:PsiDirectoryNode" />
+              <item name="HCI assignment" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -428,7 +431,7 @@
       <workItem from="1511874391796" duration="10127000" />
       <workItem from="1511926659034" duration="614000" />
       <workItem from="1511932135787" duration="12290000" />
-      <workItem from="1512121064120" duration="4715000" />
+      <workItem from="1512121064120" duration="6427000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1507793443125</created>
@@ -465,11 +468,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511960872458</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Comment">
+      <created>1512126483953</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1512126483953</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28881000" />
+    <option name="totallyTimeSpent" value="30593000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="811" extended-state="6" />
@@ -512,7 +522,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First" />
-    <option name="LAST_COMMIT_MESSAGE" value="First" />
+    <MESSAGE value="Comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comment" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -532,8 +543,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#2;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#3;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#5;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
@@ -594,8 +603,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#2;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#3;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#5;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
@@ -649,8 +656,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#2;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#3;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#5;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
@@ -811,6 +816,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -818,6 +824,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -828,13 +835,6 @@
           <folding>
             <element signature="n#!!doc" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HCI assignment/js/shopping.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3475">
-          <caret line="139" column="46" lean-forward="false" selection-start-line="139" selection-start-column="34" selection-end-line="139" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -914,19 +914,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HCI assignment/shopping.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2468">
-          <caret line="275" column="71" lean-forward="false" selection-start-line="275" selection-start-column="71" selection-end-line="275" selection-end-column="71" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#2;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#3;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HCI assignment/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -965,6 +952,25 @@
             <marker date="1512126443590" expanded="true" signature="11117:11140" ph="..." />
             <marker date="1512126443590" expanded="true" signature="11429:11452" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HCI assignment/shopping.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="157" column="38" lean-forward="false" selection-start-line="157" selection-start-column="38" selection-end-line="157" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#2;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#5;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HCI assignment/js/shopping.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="133" column="52" lean-forward="false" selection-start-line="133" selection-start-column="52" selection-end-line="133" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>

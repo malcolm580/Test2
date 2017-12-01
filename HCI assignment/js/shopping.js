@@ -130,6 +130,9 @@ $(document).ready(function() {
         resizable: false,
         width:700,
         buttons: {
+            "View Comment":function() {
+                window.location.href = "comment.html";
+            },
             Cancel: function() {
                 $(this).dialog("close");
             }
