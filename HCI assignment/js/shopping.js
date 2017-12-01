@@ -105,6 +105,61 @@ $(document).ready(function() {
             direction: "down"
         }, 500);
     });
+
+
+    $('#price-min').on('change', function() {
+        $('.product-container').hide();
+        $(".full-product").hide();
+        $('.full-product').each(function() {
+            var t = $(this).attr('class');
+            var array = t.split(" ");
+
+            // alert(array[2]);
+            //alert($('#price-max').val());
+
+            var minget = parseInt(array[2]) >= $('#price-min').val();
+            var maxget = parseInt(array[2]) <= $('#price-max').val();
+
+            // alert(minget);
+             //alert("array:" + array[2] + "-  "+$('#price-max').val() + maxget);
+            if( minget && maxget){
+                //alert(array[2]);
+                $("." + array[2]).show();
+            }
+
+         });
+        $('.product-container').stop(true, true).effect('slide', {
+            direction: "down"
+        }, 500);
+    });
+
+    $('#price-max').on('change', function() {
+        $('.product-container').hide();
+        $(".full-product").hide();
+        $('.full-product').each(function() {
+            var t = $(this).attr('class');
+            var array = t.split(" ");
+
+            // alert(array[2]);
+            //alert($('#price-max').val());
+
+            var minget = parseInt(array[2]) >= $('#price-min').val();
+            var maxget = parseInt(array[2]) <= $('#price-max').val();
+
+            // alert(minget);
+            //alert("array:" + array[2] + "-  "+$('#price-max').val() + maxget);
+            if( minget && maxget){
+                //alert(array[2]);
+                $("." + array[2]).show();
+            }
+
+        });
+        $('.product-container').stop(true, true).effect('slide', {
+            direction: "down"
+        }, 500);
+    });
+
+
     
     if ($.urlParam('category') == null || $.urlParam('category') == "all") {
         $('input:checkbox[name="categories"]').attr('checked', true).change();
