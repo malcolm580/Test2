@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>HappyTravel Ltd.</title>
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/responsee.css">
+    <link rel="stylesheet" href="css/img-slider.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext'
+          rel='stylesheet' type='text/css'>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.session.js"></script>
+
+    <style>
+
+        .panel-shadow {
+            box-shadow: rgba(0, 0, 0, 0.3) 7px 7px 7px;
+        }
+
+        .panel-white {
+            border: 1px solid #dddddd;
+            margin: 60px;
+        }
+
+        .panel-white .panel-heading {
+            color: #333;
+            background-color: #fff;
+            border-color: #ddd;
+        }
+
+        .panel-white .panel-footer {
+            background-color: #fff;
+            border-color: #ddd;
+        }
+
+        .post .post-heading {
+            height: 95px;
+            padding: 20px 15px;
+
+        }
+
+        .post .post-heading .avatar {
+            width: 60px;
+            height: 60px;
+            display: block;
+            margin-right: 15px;
+        }
+
+        .post .post-heading .meta .title {
+            margin-bottom: 0;
+        }
+
+        .post .post-heading .meta .title a {
+            color: black;
+        }
+
+        .post .post-heading .meta .title a:hover {
+            color: #aaaaaa;
+        }
+
+        .post .post-heading .meta .time {
+            margin-top: 8px;
+            color: #999;
+        }
+
+        .post .post-image .image {
+            width: 100%;
+            height: auto;
+        }
+
+        .post .post-description {
+            padding: 15px;
+        }
+
+        .post .post-description p {
+            font-size: 14px;
+        }
+
+        .post .post-description .stats {
+            margin-top: 20px;
+        }
+
+        .post .post-description .stats .stat-item {
+            display: inline-block;
+            margin-right: 15px;
+        }
+
+        .post .post-description .stats .stat-item .icon {
+            margin-right: 8px;
+        }
+
+        .post .post-footer {
+            border-top: 1px solid #ddd;
+            padding: 15px;
+        }
+
+        .post .post-footer .input-group-addon a {
+            color: #454545;
+        }
+
+        .post .post-footer .comments-list {
+            padding: 0;
+            margin-top: 20px;
+            list-style-type: none;
+        }
+
+        .post .post-footer .comments-list .comment {
+            display: block;
+            width: 100%;
+            margin: 20px 0;
+        }
+
+        .post .post-footer .comments-list .comment .avatar {
+            width: 35px;
+            height: 35px;
+        }
+
+        .post .post-footer .comments-list .comment .comment-heading {
+            display: block;
+            width: 100%;
+        }
+
+        .post .post-footer .comments-list .comment .comment-heading .user {
+            font-size: 14px;
+            font-weight: bold;
+            display: inline;
+            margin-top: 0;
+            margin-right: 10px;
+        }
+
+        .post .post-footer .comments-list .comment .comment-heading .time {
+            font-size: 12px;
+            color: #aaa;
+            margin-top: 0;
+            display: inline;
+        }
+
+        .post .post-footer .comments-list .comment .comment-body {
+            margin-left: 50px;
+        }
+
+        .post .post-footer .comments-list .comment > .comments-list {
+            margin-left: 50px;
+        }
+
+        .pb-cmnt-container {
+            font-family: Lato;
+
+        }
+
+        .pb-cmnt-textarea {
+            font-size: 16px;
+            resize: none;
+            padding: 20px;
+            height: 200px;
+            width: 85%;
+            border: 1px solid #F2F2F2;
+        }
+
+
+    </style>
+
+
+</head>
+<body class="size-1280">
+<header>
+
+</header>
+
+<link rel="stylesheet" type="text/css" href="css/fontAsn.css">
+
+<div class="line">
+    <div class="box margin-bottom" style="padding:0; padding-left: 1.25rem;">
+        <div class="margin">
+            <!-- CONTENT -->
+            <h2 class="s-12 m-12 l-12">Comment Box</h2>
+        </div>
+    </div>
+</div>
+
+<div class="line">
+    <div class="box margin-bottom" style="padding:0; padding-left: 1.25rem;">
+        <div class="margin">
+            <div class="container" id="comment">
+                <hr>
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="panel panel-white post panel-shadow">
+                            <div class="post-heading">
+                                <div class="pull-left image">
+                                    <img src="img/user_1.jpg" class="img-circle avatar"
+                                         alt="user profile image">
+                                </div>
+                                <div class="pull-left meta">
+                                    <div class="title h5">
+                                        <a href="#"><b>Ryan Chan</b></a>
+                                        made a post.
+                                    </div>
+                                    <h6 class="text-muted time">14 days ago</h6>
+                                </div>
+                            </div>
+                            <div class="post-description">
+                                <p>This is a good hotel and the service is very good. You Guy Need To Try This!!</p>
+                                <div class="stats">
+                                    <a href="#" class="btn btn-default stat-item">
+                                        <img src="img/thumb-up.png" alt="" style="vertical-align: bottom;"> 6
+                                    </a>
+                                    <a href="#" class="btn btn-default stat-item">
+                                        <img src="img/thumb-down.png" alt="" style="vertical-align: bottom;"> 1
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <div class="panel panel-white post panel-shadow">
+                                <div class="post-heading">
+                                    <div class="pull-left image">
+                                        <img src="img/user_1.jpg" class="img-circle avatar"
+                                             alt="user profile image">
+                                    </div>
+                                    <div class="pull-left meta">
+                                        <div class="title h5">
+                                            <a href="#"><b>Peter Jo</b></a>
+                                            made a post.
+                                        </div>
+                                        <h6 class="text-muted time">30 days ago</h6>
+                                    </div>
+                                </div>
+                                <div class="post-description">
+                                    <p>Nice Hotel!!!! The People and Service are very Good. I Have a Nice Week In This Hotel!</p>
+                                    <div class="stats">
+                                        <a href="#" class="btn btn-default stat-item">
+                                            <img src="img/thumb-up.png" alt="" style="margin-top: 10px"> 5
+                                        </a>
+                                        <a href="#" class="btn btn-default stat-item">
+                                            <img src="img/thumb-down.png" alt="" style="margin-top: 10px"> 2
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="container pb-cmnt-container">
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-3">
+                                <div class="panel panel-info">
+                                    <div class="panel-body">
+                                        <textarea placeholder="Write your comment here!" class="pb-cmnt-textarea"></textarea>
+                                        <form class="form-inline">
+                                            <button class="btn btn-primary pull-right" type="button">Share</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<footer class="line">
+</footer>
+<script>
+    $(document).ready(function(){
+        $("button").click(function(){
+            var txt = $("textarea").val();
+            var str = "<hr><div class=\"row\">\n" +
+                "                    <div class=\"col-sm-8\">\n" +
+                "                        <div class=\"panel panel-white post panel-shadow\">\n" +
+                "                            <div class=\"post-heading\">\n" +
+                "                                <div class=\"pull-left image\">\n" +
+                "                                    <img src=\"img/user_1.jpg\" class=\"img-circle avatar\"\n" +
+                "                                         alt=\"user profile image\">\n" +
+                "                                </div>\n" +
+                "                                <div class=\"pull-left meta\">\n" +
+                "                                    <div class=\"title h5\">\n" +
+                "                                        <a href=\"#\"><b>Edward</b></a>\n" +
+                "                                        made a post.\n" +
+                "                                    </div>\n" +
+                "                                    <h6 class=\"text-muted time\">1 minutes ago</h6>\n" +
+                "                                </div>\n" +
+                "                            </div>\n" +
+                "                            <div class=\"post-description\">\n" +
+                "                                <p>"+txt+"</p>\n" +
+                "                                <div class=\"stats\">\n" +
+                "                                    <a href=\"#\" class=\"btn btn-default stat-item\">\n" +
+                "                                        <img src=\"img/thumb-up.png\" alt=\"\" style=\"vertical-align: bottom;\"> 0\n" +
+                "                                    </a>\n" +
+                "                                    <a href=\"#\" class=\"btn btn-default stat-item\">\n" +
+                "                                        <img src=\"img/thumb-down.png\" alt=\"\" style=\"vertical-align: bottom;\"> 0\n" +
+                "                                    </a>\n" +
+                "                                </div>\n" +
+                "                            </div>\n" +
+                "                        </div>\n" +
+                "                    </div>";
+            $( "#comment" ).prepend(str);
+
+
+        });
+    });
+</script>
+<script src="js/responsee.js"></script>
+<script src="js/all.js"></script>
+<script src="js/img-slider.js"></script>
+</body>
+</html>
