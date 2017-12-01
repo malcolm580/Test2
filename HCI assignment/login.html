@@ -19,6 +19,19 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text.css' />
     <!--//webfonts-->
     <script src="js/registration&login.js"></script>
+    <script src="js/sweetalert.min.js"></script>
+
+    <script>
+        function getEmail() {
+            swal("Please Enter Your Email Address", {
+                content: "input",
+            })
+                .then((value) => {
+                swal(`The Reset Password Email Has Been Sent To This Address: ${value}`);
+        });
+
+        }
+    </script>
 </head>
 
 <body class="size-1280">
@@ -64,6 +77,7 @@
                                     </li>
                                     <h4 id="login_msg">Enjoy Your Happy Travel!! :)</h4>
                                     <input type="submit" id="login_btn" value="Login" />
+                                    <input type="button" class="forget" id="forget" value="Forget Password" style="margin-top: 28px;background-color: transparent;border: 0" onclick="getEmail()">
                                 </div>
                                 <div class="clear"> </div>
                             </ul>
@@ -74,6 +88,9 @@
             </div>
         </div>
     </div>
+
+
+
     <!-- FOOTER -->
     <footer class="line">
     </footer>
