@@ -22,17 +22,10 @@ $(document).ready(function () {
     //Special char
     var specialchars = new RegExp('([!,%,&,@,#,$,^,*,?,_,~])');
 
-    $("#stuid").hide();
-    $("#chcampus").hide();
-    $("#id_cb").on('change', function () { // on change of state
-        if (this.checked) // if changed state is "CHECKED"
-        {
-            $("#stuid").show();
-            $("#chcampus").show();
-        } else {
-            $("#stuid").hide();
-            $("#chcampus").hide();
-        }
+    $("#uploadLI").hide();
+
+    $("#id_cb").on('change', function () {
+        $("#uploadLI").show();
     });
 
     $("#forgot_pw").hide();

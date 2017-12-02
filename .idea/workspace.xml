@@ -7,22 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c4b83d9-32d2-451f-812b-01d3e03709e3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HCI assignment/buyHistory.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HCI assignment/map.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HCI assignment/signupSurvey.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HCI assignment/airplane.html" afterPath="$PROJECT_DIR$/HCI assignment/airplane.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HCI assignment/buyHistory.html" afterPath="$PROJECT_DIR$/HCI assignment/buyHistory.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HCI assignment/checkout.html" afterPath="$PROJECT_DIR$/HCI assignment/checkout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HCI assignment/checkout_gift.html" afterPath="$PROJECT_DIR$/HCI assignment/checkout_gift.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HCI assignment/header.html" afterPath="$PROJECT_DIR$/HCI assignment/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HCI assignment/js/airplane.js" afterPath="$PROJECT_DIR$/HCI assignment/js/airplane.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HCI assignment/js/all.js" afterPath="$PROJECT_DIR$/HCI assignment/js/all.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HCI assignment/js/main-gift.js" afterPath="$PROJECT_DIR$/HCI assignment/js/main-gift.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HCI assignment/css/style.css" afterPath="$PROJECT_DIR$/HCI assignment/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HCI assignment/js/checkout.js" afterPath="$PROJECT_DIR$/HCI assignment/js/checkout.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HCI assignment/js/main.js" afterPath="$PROJECT_DIR$/HCI assignment/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HCI assignment/js/main2.js" afterPath="$PROJECT_DIR$/HCI assignment/js/main2.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HCI assignment/js/registration&amp;login.js" afterPath="$PROJECT_DIR$/HCI assignment/js/registration&amp;login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HCI assignment/js/shopping.js" afterPath="$PROJECT_DIR$/HCI assignment/js/shopping.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HCI assignment/shopping.html" afterPath="$PROJECT_DIR$/HCI assignment/shopping.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HCI assignment/signup.html" afterPath="$PROJECT_DIR$/HCI assignment/signup.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -103,78 +95,57 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HCI assignment/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="119" column="94" lean-forward="false" selection-start-line="119" selection-start-column="56" selection-end-line="119" selection-end-column="94" />
+            <state relative-caret-position="-25">
+              <caret line="116" column="68" lean-forward="false" selection-start-line="116" selection-start-column="68" selection-end-line="116" selection-end-column="68" />
               <folding>
-                <marker date="1512205251403" expanded="true" signature="3936:3951" ph="..." />
-                <marker date="1512205251403" expanded="true" signature="3936:3966" ph="..." />
-                <marker date="1512205251403" expanded="true" signature="4021:4051" ph="..." />
+                <marker date="1512209967645" expanded="true" signature="3842:3855" ph="..." />
+                <marker date="1512209967645" expanded="true" signature="3959:3974" ph="..." />
+                <marker date="1512209967645" expanded="true" signature="3959:3989" ph="..." />
+                <marker date="1512209967645" expanded="true" signature="4044:4074" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main2.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HCI assignment/js/main2.js">
+      <file leaf-file-name="airplane.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HCI assignment/js/airplane.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="119" column="87" lean-forward="false" selection-start-line="119" selection-start-column="87" selection-end-line="119" selection-end-column="87" />
+            <state relative-caret-position="106">
+              <caret line="131" column="32" lean-forward="true" selection-start-line="131" selection-start-column="32" selection-end-line="149" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signup.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HCI assignment/signup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="48" column="29" lean-forward="true" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
               <folding>
-                <marker date="1512205686627" expanded="true" signature="3935:3965" ph="..." />
-                <marker date="1512205686627" expanded="true" signature="4020:4050" ph="..." />
+                <element signature="n#style#0;n#div#0;n#ul#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#form#0;n#div#0;n#ul#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#label#0;n#ul#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shopping.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HCI assignment/js/shopping.js">
+      <file leaf-file-name="checkout.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HCI assignment/js/checkout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="556">
-              <caret line="188" column="40" lean-forward="false" selection-start-line="188" selection-start-column="40" selection-end-line="188" selection-end-column="40" />
+            <state relative-caret-position="451">
+              <caret line="69" column="76" lean-forward="false" selection-start-line="69" selection-start-column="76" selection-end-line="69" selection-end-column="76" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="checkout_gift.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HCI assignment/js/checkout_gift.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="556">
-              <caret line="87" column="30" lean-forward="false" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="checkout_gift.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HCI assignment/checkout_gift.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main-gift.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HCI assignment/js/main-gift.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="115" column="87" lean-forward="false" selection-start-line="115" selection-start-column="87" selection-end-line="115" selection-end-column="87" />
-              <folding>
-                <marker date="1512205686606" expanded="true" signature="3752:3782" ph="..." />
-                <marker date="1512205686606" expanded="true" signature="3837:3867" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="buyHistory.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="buyHistory.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HCI assignment/buyHistory.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+            <state relative-caret-position="373">
+              <caret line="101" column="58" lean-forward="false" selection-start-line="101" selection-start-column="58" selection-end-line="101" selection-end-column="58" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -183,21 +154,48 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="all.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HCI assignment/js/all.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="21" column="41" lean-forward="false" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+              <folding>
+                <marker date="1512204249643" expanded="true" signature="537:554" ph="..." />
+                <marker date="1512204249643" expanded="true" signature="611:621" ph="..." />
+                <marker date="1512204249643" expanded="true" signature="834:851" ph="..." />
+                <marker date="1512204249643" expanded="true" signature="951:971" ph="..." />
+                <marker date="1512204249643" expanded="true" signature="1097:1114" ph="..." />
+                <marker date="1512204249643" expanded="true" signature="1224:1243" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="checkout.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HCI assignment/checkout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="225">
+              <caret line="243" column="95" lean-forward="false" selection-start-line="243" selection-start-column="95" selection-end-line="243" selection-end-column="95" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="checkout.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HCI assignment/js/checkout.js">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HCI assignment/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-950">
-              <caret line="70" column="19" lean-forward="false" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="19" />
+            <state relative-caret-position="183">
+              <caret line="144" column="49" lean-forward="true" selection-start-line="144" selection-start-column="49" selection-end-line="144" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registration&amp;login.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HCI assignment/js/registration&amp;login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="241" column="20" lean-forward="false" selection-start-line="241" selection-start-column="20" selection-end-line="241" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -239,6 +237,11 @@
       <find>Our ser</find>
       <find>card_number</find>
       <find>right</find>
+      <find>[type=submit</find>
+      <find>complete</find>
+      <find>id_cb</find>
+      <find>window</find>
+      <find>cont2</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -261,15 +264,19 @@
         <option value="$PROJECT_DIR$/HCI assignment/shopping.html" />
         <option value="$PROJECT_DIR$/HCI assignment/airplane.html" />
         <option value="$PROJECT_DIR$/HCI assignment/signupSurvey.html" />
-        <option value="$PROJECT_DIR$/HCI assignment/js/registration&amp;login.js" />
         <option value="$PROJECT_DIR$/HCI assignment/header.html" />
         <option value="$PROJECT_DIR$/HCI assignment/js/all.js" />
-        <option value="$PROJECT_DIR$/HCI assignment/buyHistory.html" />
-        <option value="$PROJECT_DIR$/HCI assignment/js/main.js" />
-        <option value="$PROJECT_DIR$/HCI assignment/checkout.html" />
         <option value="$PROJECT_DIR$/HCI assignment/checkout_gift.html" />
         <option value="$PROJECT_DIR$/HCI assignment/js/main2.js" />
         <option value="$PROJECT_DIR$/HCI assignment/js/main-gift.js" />
+        <option value="$PROJECT_DIR$/HCI assignment/css/style.css" />
+        <option value="$PROJECT_DIR$/HCI assignment/js/registration&amp;login.js" />
+        <option value="$PROJECT_DIR$/upload-target.js" />
+        <option value="$PROJECT_DIR$/HCI assignment/signup.html" />
+        <option value="$PROJECT_DIR$/HCI assignment/js/main.js" />
+        <option value="$PROJECT_DIR$/HCI assignment/checkout.html" />
+        <option value="$PROJECT_DIR$/HCI assignment/js/checkout.js" />
+        <option value="$PROJECT_DIR$/HCI assignment/buyHistory.html" />
       </list>
     </option>
   </component>
@@ -324,6 +331,12 @@
               <item name="Test2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Test2" type="462c0819:PsiDirectoryNode" />
               <item name="HCI assignment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test2" type="462c0819:PsiDirectoryNode" />
+              <item name="HCI assignment" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Test2" type="b2602c69:ProjectViewProjectNode" />
@@ -620,11 +633,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511960872458</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="First">
+      <created>1512205728402</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1512205728402</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39931000" />
+    <option name="totallyTimeSpent" value="44225000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -694,13 +714,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HCI assignment/accounts.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HCI assignment/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -908,14 +921,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HCI assignment/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="30" column="11" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="100" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HCI assignment/map.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -924,14 +929,6 @@
             <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HCI assignment/js/airplane.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4775">
-          <caret line="191" column="0" lean-forward="true" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -958,14 +955,6 @@
             <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#aside#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#div#1;n#form#0;n#aside#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HCI assignment/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-550">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="144" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1041,14 +1030,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HCI assignment/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HCI assignment/css/responsee.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-31">
@@ -1086,14 +1067,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HCI assignment/js/registration&amp;login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="342" column="17" lean-forward="false" selection-start-line="342" selection-start-column="8" selection-end-line="342" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HCI assignment/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1112,21 +1085,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HCI assignment/js/all.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="21" column="41" lean-forward="false" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-          <folding>
-            <marker date="1512204249643" expanded="true" signature="537:554" ph="..." />
-            <marker date="1512204249643" expanded="true" signature="611:621" ph="..." />
-            <marker date="1512204249643" expanded="true" signature="834:851" ph="..." />
-            <marker date="1512204249643" expanded="true" signature="951:971" ph="..." />
-            <marker date="1512204249643" expanded="true" signature="1097:1114" ph="..." />
-            <marker date="1512204249643" expanded="true" signature="1224:1243" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HCI assignment/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1150">
@@ -1135,21 +1093,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HCI assignment/buyHistory.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HCI assignment/js/shopping.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="556">
           <caret line="188" column="40" lean-forward="false" selection-start-line="188" selection-start-column="40" selection-end-line="188" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HCI assignment/js/checkout_gift.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="87" column="30" lean-forward="false" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HCI assignment/checkout_gift.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HCI assignment/js/main2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="119" column="87" lean-forward="false" selection-start-line="119" selection-start-column="87" selection-end-line="119" selection-end-column="87" />
+          <folding>
+            <marker date="1512205686627" expanded="true" signature="3935:3965" ph="..." />
+            <marker date="1512205686627" expanded="true" signature="4020:4050" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HCI assignment/js/main-gift.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="92" column="50" lean-forward="true" selection-start-line="92" selection-start-column="50" selection-end-line="92" selection-end-column="50" />
+          <folding>
+            <marker date="1512205686606" expanded="true" signature="3752:3782" ph="..." />
+            <marker date="1512205686606" expanded="true" signature="3837:3867" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HCI assignment/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="30" column="11" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="100" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HCI assignment/js/airplane.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="131" column="32" lean-forward="true" selection-start-line="131" selection-start-column="32" selection-end-line="149" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1218,68 +1219,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HCI assignment/js/checkout.js">
+    <entry file="file://$PROJECT_DIR$/HCI assignment/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-950">
-          <caret line="70" column="19" lean-forward="false" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="19" />
+        <state relative-caret-position="183">
+          <caret line="144" column="49" lean-forward="true" selection-start-line="144" selection-start-column="49" selection-end-line="144" selection-end-column="49" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload-target.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HCI assignment/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="48" column="29" lean-forward="true" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#ul#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#0;n#div#0;n#ul#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#label#0;n#ul#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HCI assignment/checkout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="225">
+          <caret line="243" column="95" lean-forward="false" selection-start-line="243" selection-start-column="95" selection-end-line="243" selection-end-column="95" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HCI assignment/js/checkout_gift.js">
+    <entry file="file://$PROJECT_DIR$/HCI assignment/js/registration&amp;login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="87" column="30" lean-forward="false" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="30" />
+        <state relative-caret-position="183">
+          <caret line="241" column="20" lean-forward="false" selection-start-line="241" selection-start-column="20" selection-end-line="241" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HCI assignment/checkout_gift.html">
+    <entry file="file://$PROJECT_DIR$/HCI assignment/js/all.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="525">
+          <caret line="21" column="41" lean-forward="false" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+          <folding>
+            <marker date="1512204249643" expanded="true" signature="537:554" ph="..." />
+            <marker date="1512204249643" expanded="true" signature="611:621" ph="..." />
+            <marker date="1512204249643" expanded="true" signature="834:851" ph="..." />
+            <marker date="1512204249643" expanded="true" signature="951:971" ph="..." />
+            <marker date="1512204249643" expanded="true" signature="1097:1114" ph="..." />
+            <marker date="1512204249643" expanded="true" signature="1224:1243" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HCI assignment/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="119" column="94" lean-forward="false" selection-start-line="119" selection-start-column="56" selection-end-line="119" selection-end-column="94" />
+        <state relative-caret-position="-25">
+          <caret line="116" column="68" lean-forward="false" selection-start-line="116" selection-start-column="68" selection-end-line="116" selection-end-column="68" />
           <folding>
-            <marker date="1512205251403" expanded="true" signature="3936:3951" ph="..." />
-            <marker date="1512205251403" expanded="true" signature="3936:3966" ph="..." />
-            <marker date="1512205251403" expanded="true" signature="4021:4051" ph="..." />
+            <marker date="1512209967645" expanded="true" signature="3842:3855" ph="..." />
+            <marker date="1512209967645" expanded="true" signature="3959:3974" ph="..." />
+            <marker date="1512209967645" expanded="true" signature="3959:3989" ph="..." />
+            <marker date="1512209967645" expanded="true" signature="4044:4074" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HCI assignment/js/main2.js">
+    <entry file="file://$PROJECT_DIR$/HCI assignment/js/checkout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="119" column="87" lean-forward="false" selection-start-line="119" selection-start-column="87" selection-end-line="119" selection-end-column="87" />
-          <folding>
-            <marker date="1512205686627" expanded="true" signature="3935:3965" ph="..." />
-            <marker date="1512205686627" expanded="true" signature="4020:4050" ph="..." />
-          </folding>
+        <state relative-caret-position="451">
+          <caret line="69" column="76" lean-forward="false" selection-start-line="69" selection-start-column="76" selection-end-line="69" selection-end-column="76" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HCI assignment/js/main-gift.js">
+    <entry file="file://$PROJECT_DIR$/HCI assignment/buyHistory.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="115" column="87" lean-forward="false" selection-start-line="115" selection-start-column="87" selection-end-line="115" selection-end-column="87" />
+        <state relative-caret-position="373">
+          <caret line="101" column="58" lean-forward="false" selection-start-line="101" selection-start-column="58" selection-end-line="101" selection-end-column="58" />
           <folding>
-            <marker date="1512205686606" expanded="true" signature="3752:3782" ph="..." />
-            <marker date="1512205686606" expanded="true" signature="3837:3867" ph="..." />
+            <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

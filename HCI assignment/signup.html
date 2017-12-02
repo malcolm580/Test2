@@ -22,7 +22,44 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text.css' />
     <!--//webfonts-->
     <script src="js/registration&login.js"></script>
+
+    <script src="https://rawgit.com/enyo/dropzone/master/dist/dropzone.js"></script>
+    <link rel="stylesheet" href="https://rawgit.com/enyo/dropzone/master/dist/dropzone.css">
 </head>
+
+<script>
+    $(document).ready(function () {
+        $("#uploadMessage").hide();
+
+        $("#upload").on('click', function () {
+            $(".dropzone").show();
+            $("#dropzone").dialog({
+                autoOpen: true,
+                show: {
+                    effect: "blind",
+                    duration: 500
+                },
+                hide: {
+                    effect: "explode",
+                    duration: 500
+                },
+                modal: true,
+                resizable: false,
+                width:700,
+                height : 800,
+                buttons: {
+                    Cancel: function() {
+                        $(this).dialog("close");
+                    },
+                    Ok: function() {
+                        $( this ).dialog( "close" );
+                        $("#uploadMessage").show();
+                    }
+                }
+            });// on change of state
+        });
+    })
+</script>
 
 <body class="size-1280">
 <!-- HEADER -->
@@ -82,23 +119,18 @@
                                 <span id="email_indicator"> </span>
                                 <div class="clear"> </div>
                             </li>
-                            <label class="checkbox"><input type="checkbox" name="checkbox" id="id_cb"><i> </i><span style="font-size: 13px">Provide Your IVE Student ID To Obtraining 10% Discount.</span></label>
+                            <div id="dropzone" style="display: none" title="Upload File System" >
+                                <h2>Please Provide Your Student ID card in jpg/png format</h2>
+                                <form action="/upload-target.js" class="dropzone"  style=" height: 70%;">
+                                </form>
+                            </div>
+                            <label class="checkbox"><input type="checkbox" name="checkbox" id="id_cb"><i> </i><span style="font-size: 20px">Provide Your IVE Student ID To Obtraining 10% Discount.</span></label>
+                            <li id="uploadLI">
+                                <button id="upload">Upload</button>
+                                <h2 id="uploadMessage" >Your File Has Successfully Uploaded</h2>
+                                <div class="clear"> </div>
+                            </li>
                             <li>
-                                <input type="text"   placeholder="IVE Student ID" id="stuid" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/>
-                                <span id="stuid_indicator"> </span>
-                                <br>
-                                <input list="campus" id="chcampus" placeholder="Study Campus" style="margin-left: 12px;font-size: 14px;border: 0;margin-bottom:10px " >
-                                <datalist id="campus">
-                                    <option value="Chai Wan">
-                                    <option value="Lee Wai Lee">
-                                    <option value="Morrison Hill">
-                                    <option value="Sha Tin">
-                                    <option value="Kwun Tong">
-                                    <option value="Haking Wong">
-                                    <option value="Tsing Yi">
-                                    <option value="Tuen Mun">
-                                    <option value="Kwai Chung">
-                                </datalist>
 
                                 <div class="clear"> </div>
                             </li>

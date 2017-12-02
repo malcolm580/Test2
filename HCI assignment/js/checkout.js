@@ -48,7 +48,29 @@ $(document).ready(function() {
     
     $('#cont2').on("click", function(){
         //alert('Credit card format valid!')
-        $('#step3').show();
+        $('#step3').dialog({
+            autoOpen: true,
+            show: {
+                effect: "blind",
+                duration: 500
+            },
+            hide: {
+                effect: "explode",
+                duration: 500
+            },
+            modal: true,
+            resizable: false,
+            width:900,
+            height : 900,
+            buttons: {
+                Cancel: function() {
+                    $(this).dialog("close");
+                },
+                Ok: function() {
+                    $( this ).dialog( window.location.href = "index.html" );
+                }
+            }
+        });
     })
     
     $('.cc').mouseover(function(){
