@@ -60,7 +60,7 @@ jQuery(document).ready(function($){
 	
 	$('#checkoutBtn').on('click', function(){
 		$.session.set('productList', list);
-		window.location.href = "checkout.html";
+		window.location.href = "checkoutAir.html";
 	});
 
 	function toggleCart(bool) {
@@ -113,7 +113,7 @@ jQuery(document).ready(function($){
 		// }
 		var p = '<div class="products">'+
 						'<div class="product_image">'+
-							'<img src="'+src+'"/>'+
+							'<img src="'+src+'"  style="height: 300px" />'+
 						'</div>'+
 						'<div class="product_details">'+
 							'<span class="product_name" style="color: black ; font-size: 20px">'+name+'</span>'+

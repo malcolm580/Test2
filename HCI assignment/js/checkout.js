@@ -12,9 +12,7 @@ $(document).ready(function() {
         $('#step3').hide();
     }
 
-    $('#cont1').hide();
-    $('#cont2').hide();
-    $('#cont3').hide();
+
     $('.cc').css('opacity', '0.4');
     $(".datepicker").datepicker();
         
@@ -28,6 +26,10 @@ $(document).ready(function() {
     });
     
     $('.datepicker').on('click', function(value){
+        $('#cont1').show();
+    });
+
+    $('#seat').on('change', function(){
         $('#cont1').show();
     });
     
