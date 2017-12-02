@@ -7,11 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c4b83d9-32d2-451f-812b-01d3e03709e3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HCI assignment/checkoutAir.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Basic Website Usability Tips.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Five-stage Search framework.pptx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HCI assignment.rar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HCI_prototype_backup.rar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML5 website Examples.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Images Examples.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/System Documentation.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/User Analysis.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backup.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/business-template.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website_Project 16-17.docx" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CHing.iml" afterPath="$PROJECT_DIR$/Assignment.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web Design Concepts.docx" afterPath="$PROJECT_DIR$/Web Design Concepts.docx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HCI assignment/checkout.html" afterPath="$PROJECT_DIR$/HCI assignment/checkout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HCI assignment/js/checkout.js" afterPath="$PROJECT_DIR$/HCI assignment/js/checkout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HCI assignment/js/main2.js" afterPath="$PROJECT_DIR$/HCI assignment/js/main2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HCI assignment/signupSurvey.html" afterPath="$PROJECT_DIR$/HCI assignment/signupSurvey.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/HCI assignment/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-100">
-              <caret line="116" column="69" lean-forward="true" selection-start-line="116" selection-start-column="48" selection-end-line="116" selection-end-column="69" />
+              <caret line="116" column="69" lean-forward="false" selection-start-line="116" selection-start-column="48" selection-end-line="116" selection-end-column="69" />
               <folding>
                 <marker date="1512209967645" expanded="true" signature="3842:3855" ph="..." />
                 <marker date="1512209967645" expanded="true" signature="3959:3974" ph="..." />
@@ -42,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/HCI assignment/js/main2.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="287">
-              <caret line="62" column="50" lean-forward="true" selection-start-line="62" selection-start-column="50" selection-end-line="62" selection-end-column="50" />
+              <caret line="62" column="50" lean-forward="false" selection-start-line="62" selection-start-column="50" selection-end-line="62" selection-end-column="50" />
               <folding>
                 <marker date="1512219150500" expanded="true" signature="3845:3858" ph="..." />
                 <marker date="1512219150500" expanded="true" signature="3962:3992" ph="..." />
@@ -68,32 +78,34 @@
       <file leaf-file-name="checkout.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HCI assignment/js/checkout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="486">
+              <caret line="150" column="13" lean-forward="false" selection-start-line="150" selection-start-column="8" selection-end-line="150" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="buyHistory.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HCI assignment/buyHistory.html">
+      <file leaf-file-name="registration&amp;login.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HCI assignment/js/registration&amp;login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="68" column="13" lean-forward="true" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+            <state relative-caret-position="692">
+              <caret line="276" column="0" lean-forward="false" selection-start-line="276" selection-start-column="0" selection-end-line="276" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signupSurvey.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HCI assignment/signupSurvey.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="102" column="52" lean-forward="false" selection-start-line="102" selection-start-column="43" selection-end-line="102" selection-end-column="52" />
               <folding>
-                <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#li#0;n#fieldset#0;n#ul#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#li#1;n#fieldset#0;n#ul#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#li#0;n#fieldset#1;n#ul#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#li#1;n#fieldset#1;n#ul#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="checkout_gift.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HCI assignment/js/checkout_gift.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -102,7 +114,7 @@
         <entry file="file://$PROJECT_DIR$/HCI assignment/airplane.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="550">
-              <caret line="230" column="15" lean-forward="true" selection-start-line="230" selection-start-column="15" selection-end-line="230" selection-end-column="15" />
+              <caret line="230" column="15" lean-forward="false" selection-start-line="230" selection-start-column="15" selection-end-line="230" selection-end-column="15" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#9436#9443#1" expanded="true" />
@@ -126,32 +138,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gift.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HCI assignment/gift.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="checkout.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="checkout.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HCI assignment/checkout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6025">
-              <caret line="241" column="83" lean-forward="true" selection-start-line="241" selection-start-column="83" selection-end-line="241" selection-end-column="83" />
+            <state relative-caret-position="287">
+              <caret line="89" column="52" lean-forward="false" selection-start-line="89" selection-start-column="47" selection-end-line="89" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HCI assignment/index.html">
+      <file leaf-file-name="signup.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HCI assignment/signup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="556">
-              <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="400">
+              <caret line="48" column="29" lean-forward="false" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#ul#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#form#0;n#div#0;n#ul#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#label#0;n#ul#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -185,7 +191,6 @@
       <find>View Comment</find>
       <find>#stuid</find>
       <find>header-account</find>
-      <find>login</find>
       <find>OUt</find>
       <find>login_btn</find>
       <find>Our ser</find>
@@ -194,9 +199,10 @@
       <find>[type=submit</find>
       <find>id_cb</find>
       <find>window</find>
-      <find>complete</find>
       <find>checkout.</find>
+      <find>complete</find>
       <find>cont2</find>
+      <find>login</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -218,7 +224,6 @@
         <option value="$PROJECT_DIR$/HCI assignment/js/airplane.js" />
         <option value="$PROJECT_DIR$/HCI assignment/shopping.html" />
         <option value="$PROJECT_DIR$/HCI assignment/airplane.html" />
-        <option value="$PROJECT_DIR$/HCI assignment/signupSurvey.html" />
         <option value="$PROJECT_DIR$/HCI assignment/header.html" />
         <option value="$PROJECT_DIR$/HCI assignment/js/all.js" />
         <option value="$PROJECT_DIR$/HCI assignment/checkout_gift.html" />
@@ -233,6 +238,7 @@
         <option value="$PROJECT_DIR$/HCI assignment/js/checkout.js" />
         <option value="$PROJECT_DIR$/HCI assignment/checkoutAir.html" />
         <option value="$PROJECT_DIR$/HCI assignment/checkout.html" />
+        <option value="$PROJECT_DIR$/HCI assignment/signupSurvey.html" />
       </list>
     </option>
   </component>
@@ -283,12 +289,6 @@
               <item name="Test2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Test2" type="462c0819:PsiDirectoryNode" />
               <item name="HCI assignment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test2" type="462c0819:PsiDirectoryNode" />
-              <item name="HCI assignment" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -482,6 +482,18 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CHing" />
+      <envs />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -601,15 +613,21 @@
       <option name="project" value="LOCAL" />
       <updated>1512213477984</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="First">
+      <created>1512219898000</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1512219898000</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48482000" />
+    <option name="totallyTimeSpent" value="50453000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -623,7 +641,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12291667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12291667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -675,70 +693,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HCI assignment/shopping.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#script#5;n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#2;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#a#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#a#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#2;n#a#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#3;n#a#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#10245#10252#1" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#a#0;n#div#0;n#div#2;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#2;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#a#0;n#div#0;n#div#2;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#2;n#a#0;n#div#0;n#div#2;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#div#2;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#a#0;n#div#0;n#div#3;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#3;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#a#0;n#div#0;n#div#3;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#2;n#a#0;n#div#0;n#div#3;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#div#3;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#a#0;n#div#0;n#div#4;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#4;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#a#0;n#div#0;n#div#4;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#2;n#a#0;n#div#0;n#div#4;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#div#4;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#a#0;n#div#0;n#div#5;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#5;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#a#0;n#div#0;n#div#5;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#2;n#a#0;n#div#0;n#div#5;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#div#5;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#a#0;n#div#0;n#div#6;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#6;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#a#0;n#div#0;n#div#6;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#2;n#a#0;n#div#0;n#div#6;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#3;n#a#0;n#div#0;n#div#6;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#div#6;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#a#0;n#div#0;n#div#7;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#7;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#a#0;n#div#0;n#div#7;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#2;n#a#0;n#div#0;n#div#7;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#3;n#a#0;n#div#0;n#div#7;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#div#7;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#a#0;n#div#0;n#div#8;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#8;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#a#0;n#div#0;n#div#8;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#2;n#a#0;n#div#0;n#div#8;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#3;n#a#0;n#div#0;n#div#8;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#div#8;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#p#0;n#form#0;n#aside#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#p#1;n#form#0;n#aside#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#1;n#form#0;n#aside#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#2;n#form#0;n#aside#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HCI assignment/question.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -958,19 +912,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HCI assignment/signupSurvey.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="146" column="0" lean-forward="false" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#li#0;n#fieldset#0;n#ul#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#li#1;n#fieldset#0;n#ul#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#li#0;n#fieldset#1;n#ul#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#li#1;n#fieldset#1;n#ul#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HCI assignment/accounts.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -1128,26 +1069,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HCI assignment/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="48" column="29" lean-forward="true" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#ul#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#form#0;n#div#0;n#ul#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#label#0;n#ul#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HCI assignment/js/registration&amp;login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="241" column="20" lean-forward="false" selection-start-line="241" selection-start-column="20" selection-end-line="241" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HCI assignment/js/all.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -1201,7 +1122,7 @@
     <entry file="file://$PROJECT_DIR$/HCI assignment/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-100">
-          <caret line="116" column="69" lean-forward="true" selection-start-line="116" selection-start-column="48" selection-end-line="116" selection-end-column="69" />
+          <caret line="116" column="69" lean-forward="false" selection-start-line="116" selection-start-column="48" selection-end-line="116" selection-end-column="69" />
           <folding>
             <marker date="1512209967645" expanded="true" signature="3842:3855" ph="..." />
             <marker date="1512209967645" expanded="true" signature="3959:3974" ph="..." />
@@ -1214,7 +1135,7 @@
     <entry file="file://$PROJECT_DIR$/HCI assignment/airplane.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
-          <caret line="230" column="15" lean-forward="true" selection-start-line="230" selection-start-column="15" selection-end-line="230" selection-end-column="15" />
+          <caret line="230" column="15" lean-forward="false" selection-start-line="230" selection-start-column="15" selection-end-line="230" selection-end-column="15" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#9436#9443#1" expanded="true" />
@@ -1240,20 +1161,12 @@
     <entry file="file://$PROJECT_DIR$/HCI assignment/js/main2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
-          <caret line="62" column="50" lean-forward="true" selection-start-line="62" selection-start-column="50" selection-end-line="62" selection-end-column="50" />
+          <caret line="62" column="50" lean-forward="false" selection-start-line="62" selection-start-column="50" selection-end-line="62" selection-end-column="50" />
           <folding>
             <marker date="1512219150500" expanded="true" signature="3845:3858" ph="..." />
             <marker date="1512219150500" expanded="true" signature="3962:3992" ph="..." />
             <marker date="1512219150500" expanded="true" signature="4047:4077" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HCI assignment/js/checkout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1268,11 +1181,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HCI assignment/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="48" column="29" lean-forward="false" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#ul#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#0;n#div#0;n#ul#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#label#0;n#ul#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HCI assignment/checkout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6025">
-          <caret line="241" column="83" lean-forward="true" selection-start-line="241" selection-start-column="83" selection-end-line="241" selection-end-column="83" />
+        <state relative-caret-position="287">
+          <caret line="89" column="52" lean-forward="false" selection-start-line="89" selection-start-column="47" selection-end-line="89" selection-end-column="52" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HCI assignment/js/checkout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="150" column="13" lean-forward="false" selection-start-line="150" selection-start-column="8" selection-end-line="150" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HCI assignment/js/registration&amp;login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="692">
+          <caret line="276" column="0" lean-forward="false" selection-start-line="276" selection-start-column="0" selection-end-line="276" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1350">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HCI assignment/signupSurvey.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="102" column="52" lean-forward="false" selection-start-line="102" selection-start-column="43" selection-end-line="102" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#li#0;n#fieldset#0;n#ul#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#li#1;n#fieldset#0;n#ul#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#li#0;n#fieldset#1;n#ul#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#li#1;n#fieldset#1;n#ul#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
