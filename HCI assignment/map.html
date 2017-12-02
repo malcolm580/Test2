@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Travel</title>
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/responsee.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.session.js"></script>
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--webfonts-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text.css' />
+    <!--//webfonts-->
+    <script src="js/registration&login.js"></script>
+    <script src="js/sweetalert.min.js"></script>
+
+    <script>
+        function getEmail() {
+            swal("Please Enter Your Email Address", {
+                content: "input",
+            })
+                .then((value) => {
+                swal(`The Reset Password Email Has Been Sent To This Address: ${value}`);
+        });
+
+        }
+    </script>
+</head>
+
+<body class="size-1280">
+<!-- HEADER -->
+<header>
+
+</header>
+
+<div class="line">
+    <div class="box margin-bottom" style="padding:0; padding-left: 1.25rem;">
+        <div class="margin">
+            <ul class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shopping.html">Shopping</a></li>
+                <li>Map</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- ASIDE NAV AND CONTENT -->
+<div class="line" >
+    <div class="box" style="height: 600px">
+        <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12961.459677812458!2d139.6911213!3d35.6926366!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8548635f1933c70e!2z5p2x5Lqs5biM54i-6aCT6YWS5bqX!5e0!3m2!1szh-TW!2shk!4v1507997692605"
+                style="width: 100% ; height: 600px"></iframe>
+    </div>
+</div>
+
+
+
+<!-- FOOTER -->
+<footer class="line">
+</footer>
+<script type="text/javascript" src="js/responsee.js"></script>
+<script type="text/javascript" src="js/all.js"></script>
+</body>
+
+</html>

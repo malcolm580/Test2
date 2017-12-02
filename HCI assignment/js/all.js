@@ -17,7 +17,9 @@ $(document).ready(function() {
                   '</div>'+
                   '<form class="customform s-4" onsubmit="logout(); return false;" style="margin-left:20px;">'+
                     '<p class="right s-12"><strong><button type="submit" class="logout" style="background: #007CCC;">Sign Out</button></strong></p>'+
-                  '</form>');
+                  '</form>'+' <form class="customform s-5" action="buyHistory.html" style="margin-left:20px;">\n' +
+                '                  <p class="right s-12"><strong><button class="header-button" style="background:#000000;">Buy History</button></strong></p>\n' +
+                '               </form>');
             
         }
             

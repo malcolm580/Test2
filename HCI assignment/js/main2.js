@@ -116,8 +116,8 @@ jQuery(document).ready(function($){
 							'<img src="'+src+'"/>'+
 						'</div>'+
 						'<div class="product_details">'+
-							'<span class="product_name">'+name+'</span>'+
-							'<span class="price">$'+price+'</span>'+
+							'<span class="product_name" style="color: black ; font-size: 20px">'+name+'</span>'+
+							'<span class="price" style="color: black ; font-size: 20px">$'+price+'</span>'+
 						'</div>'+
 					'</div>';
 		list += p;

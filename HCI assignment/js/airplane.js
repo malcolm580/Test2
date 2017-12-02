@@ -190,7 +190,4 @@ $(document).ready(function() {
         }
     });
 
-    // zoom in picture
-    $('.dialog-img').zoom();
-
 });

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>HappyTravel Ltd.</title>
+   <link rel="stylesheet" href="css/components.css">
+   <link rel="stylesheet" href="css/icons.css">
+   <link rel="stylesheet" href="css/responsee.css">
+   <link rel="stylesheet" href="css/img-slider.css">
+   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+   <script src="js/jquery.min.js"></script>
+   <script src="js/jquery-ui.min.js"></script>
+   <script src="js/jquery.session.js"></script>
+   <script src="js/sweetalert.min.js"></script>
+
+   <style>
+      td img   {
+         width: 100%;
+         height: 50% ;
+      }
+
+      .refund {
+         font-size: 30px;
+      }
+
+      tr{
+         font-size: 20px;
+      }
+
+
+
+   </style>
+
+   <script>
+       $(document).ready(function () {
+           $(".refund").click(function () {
+               //
+               swal({
+                   title: "Are you sure to refund?",
+                   text: "Once refund, you will not be able to recover this order and you only can get 90% in price!",
+                   icon: "warning",
+                   buttons: true,
+                   dangerMode: true,
+               })
+                   .then((willDelete) => {
+                   if (willDelete) {
+                       $("#"+$(this).attr("name") ).remove();
+                       swal("Your order has been cancel!", {
+                           icon: "success",
+                       });
+                   } else {
+
+           }
+           });
+               //
+           });
+
+       })
+
+
+
+
+   </script>
+
+</head>
+
+<body class="size-1280">
+   <!-- HEADER -->
+   <header>
+      
+   </header>
+   <span id="active-page" style="display:none;">Home</span>
+   <section>
+      <!-- HOME PAGE BLOCK -->
+      <div class="line">
+         <div class="box margin-bottom" style="padding:0; padding-left: 1.25rem;">
+            <div class="margin">
+               <!-- CONTENT -->
+               <h2 class="s-12 m-12 l-12">Buy History</h2>
+            </div>
+         </div>
+      </div>
+      <div class="line">
+         <div class="margin">
+            <div class=" margin-bottom">
+               <div class="box">
+                  <table width="100%">
+                     <tr style="background-color:#8b8b8b">
+                        <th>Type</th>
+                        <th>Name</th>
+                        <th width="40%">Image</th>
+                        <th>Purchase Time</th>
+                        <th>Refund</th>
+                     </tr>
+                     <tr id="1">
+                        <td>Hotel</td>
+                        <td>Hotel Keihan Asakusa Tokyo</td>
+                        <td><img src="img/HotelKeihanAsakusaTokyo.jpg"></td>
+                        <td>2017/11/11 18:04</td>
+                        <td><button name="1" class="refund">Refund</button></td>
+                     </tr>
+                     <tr id="2">
+                        <td>Air ticket</td>
+                        <td>Cathay Pacific : Hong Kong To Tokyo (2017-10-11)</td>
+                        <td><img src="logos/cat_logo.jpg" alt=""></td>
+                        <td>2017/10/01 21:04</td>
+                        <td><button name="2" class="refund">Refund</button></td>
+                     </tr>
+                  </table>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+  <!-- FOOTER -->
+   <footer class="line">
+   </footer>
+   <script src="js/responsee.js"></script>
+   <script src="js/all.js"></script>
+   <script src="js/img-slider.js"></script>
+</body>
+
+</html>

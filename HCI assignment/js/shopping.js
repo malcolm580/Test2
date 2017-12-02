@@ -185,6 +185,10 @@ $(document).ready(function() {
         resizable: false,
         width:700,
         buttons: {
+            "View Map" : function () {
+                window.location.href = "map.html";
+            }
+            ,
             "View Comment":function() {
                 window.location.href = "comment.html";
             },
@@ -236,6 +240,6 @@ $(document).ready(function() {
     });
 
     // zoom in picture
-    $('.dialog-img').zoom();
+    // $('.dialog-img').zoom();
 
 });

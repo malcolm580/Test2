@@ -246,7 +246,7 @@ $(document).ready(function () {
             })
                 .then((willDelete) => {
                 if(willDelete) {
-                    window.location = 'index.html';
+                    window.location = 'signupSurvey.html';
                 }else{
                     $("#username").val('');
             $("#password").val('');
@@ -268,6 +268,27 @@ $(document).ready(function () {
             });
         }
     });
+
+    $("#SurveyComplete").click(function () {
+
+        swal({
+            title: "Confirmation",
+            text: "Are you want to submit?",
+            buttons: true,
+            dangerMode: true,
+        })
+            .then((willDelete) => {
+            if(willDelete) {
+                window.location = 'index.html';
+            }else{
+
+            }
+
+        })
+
+
+    });
+
 
     $(window).click(function (e) {
         // alert(e.target.id);
