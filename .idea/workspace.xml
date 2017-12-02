@@ -7,21 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c4b83d9-32d2-451f-812b-01d3e03709e3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Basic Website Usability Tips.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Five-stage Search framework.pptx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HCI assignment.rar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HCI_prototype_backup.rar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML5 website Examples.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images Examples.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/System Documentation.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/User Analysis.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/business-template.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/website_Project 16-17.docx" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CHing.iml" afterPath="$PROJECT_DIR$/Assignment.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web Design Concepts.docx" afterPath="$PROJECT_DIR$/Web Design Concepts.docx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HCI assignment/signupSurvey.html" afterPath="$PROJECT_DIR$/HCI assignment/signupSurvey.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -289,6 +275,12 @@
               <item name="Test2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Test2" type="462c0819:PsiDirectoryNode" />
               <item name="HCI assignment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test2" type="462c0819:PsiDirectoryNode" />
+              <item name="HCI assignment" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -620,11 +612,25 @@
       <option name="project" value="LOCAL" />
       <updated>1512219898000</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="First">
+      <created>1512222036305</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1512222036305</updated>
+    </task>
+    <task id="LOCAL-00011" summary="First">
+      <created>1512222073494</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1512222073494</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50453000" />
+    <option name="totallyTimeSpent" value="50625000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
