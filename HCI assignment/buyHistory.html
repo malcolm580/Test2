@@ -15,7 +15,7 @@
    <script src="js/jquery.min.js"></script>
    <script src="js/jquery-ui.min.js"></script>
    <script src="js/jquery.session.js"></script>
-   <script src="js/sweetalert.min.js"></script>
+   <script src="js/sweetalert2.all.js"></script>
 
    <style>
       td img   {
@@ -39,23 +39,34 @@
        $(document).ready(function () {
            $(".refund").click(function () {
                //
-               swal({
-                   title: "Are you sure to refund?",
-                   text: "Once refund, you will not be able to recover this order and you only can get 90% in price!",
-                   icon: "warning",
-                   buttons: true,
-                   dangerMode: true,
+               swal.setDefaults({
+                   input: 'text',
+                   confirmButtonText: 'Next &rarr;',
+                   showCancelButton: true,
+                   progressSteps: ['1', '2']
                })
-                   .then((willDelete) => {
-                   if (willDelete) {
-                       $("#"+$(this).attr("name") ).remove();
-                       swal("Your order has been cancel!", {
-                           icon: "success",
-                       });
-                   } else {
 
-           }
-           });
+               var steps = [
+                   {
+                       title: 'Are you sure to refund this order?',
+                       text: 'If you refund, you only can get back 90% of the price. If you agree, please enter "YES"'
+                   },
+                   {
+                       title: 'Please enter your password'
+                   }
+               ]
+
+               swal.queue(steps).then((result) => {
+                   swal.resetDefaults()
+
+               if (result.value) {
+                   swal({
+                       title: 'All done!',
+                       confirmButtonText: 'Back to buy history'
+                   });
+                   $("#"+$(this).attr("name")).remove();
+               }
+           })
                //
            });
 

@@ -7,14 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c4b83d9-32d2-451f-812b-01d3e03709e3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HCI assignment/js/sweetalert2.all.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HCI assignment/buyHistory.html" afterPath="$PROJECT_DIR$/HCI assignment/buyHistory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HCI assignment/checkout.html" afterPath="$PROJECT_DIR$/HCI assignment/checkout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HCI assignment/css/style.css" afterPath="$PROJECT_DIR$/HCI assignment/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HCI assignment/js/checkout.js" afterPath="$PROJECT_DIR$/HCI assignment/js/checkout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HCI assignment/js/main.js" afterPath="$PROJECT_DIR$/HCI assignment/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HCI assignment/js/registration&amp;login.js" afterPath="$PROJECT_DIR$/HCI assignment/js/registration&amp;login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HCI assignment/signup.html" afterPath="$PROJECT_DIR$/HCI assignment/signup.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -144,8 +139,8 @@
       <file leaf-file-name="buyHistory.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HCI assignment/buyHistory.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="101" column="58" lean-forward="false" selection-start-line="101" selection-start-column="58" selection-end-line="101" selection-end-column="58" />
+            <state relative-caret-position="175">
+              <caret line="66" column="56" lean-forward="false" selection-start-line="66" selection-start-column="56" selection-end-line="66" selection-end-column="56" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -294,9 +289,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
+    <option name="x" value="609" />
+    <option name="y" value="127" />
     <option name="width" value="1366" />
-    <option name="height" value="669" />
+    <option name="height" value="599" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -366,6 +362,7 @@
       <recent name="C:\Users\youma\Documents\Workspace\Test2\HCI assignment\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\youma\Documents\Workspace\Test2\HCI assignment\js" />
       <recent name="C:\Users\youma\Documents\Workspace\Test2\HCI assignment" />
       <recent name="C:\Users\youma\Documents\Workspace\Test2\HCI assignment\img" />
       <recent name="C:\Users\youma\Documents\Workspace\Test2\HCI assignment\logos" />
@@ -640,11 +637,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512205728402</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="First">
+      <created>1512210938376</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1512210938376</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44225000" />
+    <option name="totallyTimeSpent" value="45400000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1301,8 +1305,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HCI assignment/buyHistory.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="101" column="58" lean-forward="false" selection-start-line="101" selection-start-column="58" selection-end-line="101" selection-end-column="58" />
+        <state relative-caret-position="175">
+          <caret line="66" column="56" lean-forward="false" selection-start-line="66" selection-start-column="56" selection-end-line="66" selection-end-column="56" />
           <folding>
             <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
